@@ -82,5 +82,59 @@ public class CustomerDAO {
         return customers;
     }
     
+    public boolean deletecustomer (int id){
+        boolean rowdelete = false;
+        try {
+            Connection connection = getConnection();
+            PreparedStatement preparedStatement = connection.prepareStatement(DELETE_CUS_SQL);
+            preparedStatement.setInt(1, id);
+            rowdelete = preparedStatement.executeUpdate() > 0;
+            
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return rowdelete;
+    }
+    
+    public boolean updateCustomer (Customer customer){
+        boolean rowupdated = false;
+        try {
+            Connection connection = getConnection();
+            PreparedStatement preparedStatement = connection.prepareStatement(UPDATE_CUS_SQL);
+            preparedStatement.setString(1, customer.getName());
+            preparedStatement.setString(2, customer.getEmail());
+            preparedStatement.setString(3, customer.getAddress());
+            preparedStatement.setString(4, customer.getMobile());
+            preparedStatement.setInt(5, customer.getId());
+            rowupdated = preparedStatement.executeUpdate() > 0;
+            
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return rowupdated;
+    }
+    
+    public Customer selectCustomer (int id){
+        Customer customer = null;
+        try {
+            Connection connection = getConnection();
+            PreparedStatement preparedStatement = connection.prepareStatement(SELECT_CUS_BY_ID);
+            preparedStatement.setInt(1, id);
+            ResultSet rs = preparedStatement.executeQuery();
+            
+                while(rs.next()){
+                    String name = rs.getString("name");
+                    String email = rs.getString("email");
+                    String address = rs.getString("address");
+                    String mobile = rs.getString("mobile");
+                    customer= new Customer(id,name,email,address,mobile);
+                    
+                }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return customer;
+    }
+    
     
 }
