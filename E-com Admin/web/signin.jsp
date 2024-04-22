@@ -69,7 +69,7 @@
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link me-2" href="signup.html">
+                  <a class="nav-link me-2" href="signup.jsp">
                     <i class="fas fa-user-circle opacity-6 text-dark me-1"></i>
                     Sign Up
                   </a>
@@ -97,7 +97,7 @@
     </div>
   </div>
   <main class="main-content  mt-0">
-    <div class="page-header align-items-start min-vh-100" style="background-image: url('assets/img/illustrations/logo.png');">
+    <div class="page-header align-items-start min-vh-100" style="background-image: url('assets/img/bg.png');">
       <span class="mask bg-gradient-dark opacity-6"></span>
       <div class="container my-auto">
         <div class="row">
