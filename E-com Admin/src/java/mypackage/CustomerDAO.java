@@ -5,11 +5,82 @@
  */
 package mypackage;
 
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  *
  * @author User
  */
 public class CustomerDAO {
+    
+    //db connection
+    private String jdbcurl= "jdbc:mysql://localhost:3306/school?useSSL=false";
+    private String username= "root";
+    private String password= "";
+    
+    private static final String INSERT_CUS_SQL ="insert into customers"+"(name,email,address,mobile) values"+"(?,?,?,?);";
+    private static final String SELECT_ALL_CUS = "select * from customers";
+    private static final String DELETE_CUS_SQL = "delete from customers where id= ?";
+    private static final String UPDATE_CUS_SQL ="update customers  set name = ?, email=?, address=?, mobile=?;";
+    private static final String SELECT_CUS_BY_ID="select * from customers where id=?; ";
+    
+    protected Connection getConnection(){
+        
+        Connection connection = null;
+        try {
+            Class.forName("com.mysql.jdbc.Driver");
+            connection = DriverManager.getConnection(jdbcurl,username,password);
+            System.out.println("Cus db connected");
+        } catch (ClassNotFoundException e){
+            e.printStackTrace();
+        } catch (SQLException e){
+            e.printStackTrace();
+        }
+        return connection;
+    }
+    
+    public void insertCustomer (Customer customer){
+        try {
+            Connection connection = getConnection();
+            PreparedStatement preparedStatement = connection.prepareStatement(INSERT_CUS_SQL);
+            preparedStatement.setString(1, customer.getName());
+            preparedStatement.setString(2, customer.getEmail());
+            preparedStatement.setString(3, customer.getAddress());
+            preparedStatement.setString(4, customer.getMobile());
+            preparedStatement.executeUpdate();
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+    
+    public List<Customer> selectallcustomers (){
+        List<Customer> customers = new ArrayList<>();
+        Customer customer= null;
+        try {
+            Connection connection = getConnection();
+            PreparedStatement preparedStatement= connection.prepareStatement(SELECT_ALL_CUS);
+            ResultSet rs= preparedStatement.executeQuery();
+            
+                    while (rs.next()){
+                        int cid = rs.getInt("id");
+                        String name = rs.getString("name");
+                        String email = rs.getString("email");
+                        String address = rs.getString("address");
+                        String mobile = rs.getString("mobile");
+                        customers.add(new Customer(cid,name,email,address,mobile));
+                    }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return customers;
+    }
     
     
 }
