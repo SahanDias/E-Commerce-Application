@@ -1,7 +1,7 @@
 <%-- 
-    Document   : index
-    Created on : Apr 22, 2024, 4:58:05 PM
-    Author     : SINGER
+    Document   : seemore
+    Created on : Apr 22, 2024, 12:14:21 PM
+    Author     : Hashini
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -12,6 +12,6 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        
     </body>
 </html>
