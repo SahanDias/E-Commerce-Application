@@ -11,4 +11,5 @@ package mypackage;
  */
 public class CustomerDAO {
     
+    
 }
