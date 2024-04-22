@@ -45,7 +45,7 @@
         <nav class="navbar navbar-expand-lg blur border-radius-xl top-0 z-index-3 shadow position-absolute my-3 py-2 start-0 end-0 mx-4">
           <div class="container-fluid ps-2 pe-0">
             <a class="navbar-brand font-weight-bolder ms-lg-0 ms-3 " href="dashboard.jsp">
-              Material Dashboard 2
+              Elec-Zone
             </a>
             <button class="navbar-toggler shadow-none ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon mt-2">
@@ -83,10 +83,10 @@
               </ul>
               <ul class="navbar-nav d-lg-flex d-none">
                 <li class="nav-item d-flex align-items-center">
-                  <a class="btn btn-outline-primary btn-sm mb-0 me-2" target="_blank" href="https://www.creative-tim.com/builder?ref=navbar-material-dashboard">Online Builder</a>
+                  <a class="btn btn-outline-primary btn-sm mb-0 me-2" target="_blank" href="#">Sample Button</a>
                 </li>
                 <li class="nav-item">
-                  <a href="https://www.creative-tim.com/product/material-dashboard" class="btn btn-sm mb-0 me-1 bg-gradient-dark">Free download</a>
+                  <a href="#" class="btn btn-sm mb-0 me-1 bg-gradient-dark">Sample Button</a>
                 </li>
               </ul>
             </div>
@@ -152,10 +152,10 @@
           </div>
         </div>
       </div>
-       <footer class="footer py-4  ">
-        <div class="container-fluid">
+      <footer class="footer position-absolute bottom-2 py-2 w-100">
+        <div class="container">
           <div class="row align-items-center justify-content-lg-between">
-            <div class="col-lg-6 mb-lg-0 mb-4">
+            <div class="col-12 col-md-6 my-auto">
               <div class="copyright text-center text-sm text-muted text-lg-start">
                 © <script>
                   document.write(new Date().getFullYear())
@@ -165,19 +165,19 @@
                 for a Better Shopping Experience
               </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-12 col-md-6">
               <ul class="nav nav-footer justify-content-center justify-content-lg-end">
                 <li class="nav-item">
-                  <a href="#" class="nav-link text-muted" target="_blank">Elec-Zone</a>
+                  <a href="#" class="nav-link text-white" target="_blank">Elec-Zone</a>
                 </li>
                 <li class="nav-item">
-                  <a href="#" class="nav-link text-muted" target="_blank">About Us</a>
+                  <a href="#" class="nav-link text-white" target="_blank">About Us</a>
                 </li>
                 <li class="nav-item">
-                  <a href="#" class="nav-link text-muted" target="_blank">Blog</a>
+                  <a href="#" class="nav-link text-white" target="_blank">Blog</a>
                 </li>
                 <li class="nav-item">
-                  <a href="#" class="nav-link pe-0 text-muted" target="_blank">License</a>
+                  <a href="#" class="nav-link pe-0 text-white" target="_blank">License</a>
                 </li>
               </ul>
             </div>
