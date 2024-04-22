@@ -1,7 +1,7 @@
 <%-- 
     Document   : signin
     Created on : Apr 22, 2024, 9:51:03 PM
-    Author     : rasan
+    Author     : Rasan
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -97,7 +97,7 @@
     </div>
   </div>
   <main class="main-content  mt-0">
-    <div class="page-header align-items-start min-vh-100" style="background-image: url('assets\img\abc.jpg');">
+    <div class="page-header align-items-start min-vh-100">
       <span class="mask bg-gradient-dark opacity-6"></span>
       <div class="container my-auto">
         <div class="row">
