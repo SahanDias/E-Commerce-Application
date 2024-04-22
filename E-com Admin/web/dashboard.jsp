@@ -355,7 +355,7 @@
                             <img src="assets/img/small-logos/applelogo.svg" class="avatar avatar-sm me-3" alt="xd">
                           </div>
                           <div class="d-flex flex-column justify-content-center">
-                            <h6 class="mb-0 text-sm">iphone 15pro</h6>
+                            <h6 class="mb-0 text-sm">Iphone 15 pro</h6>
                           </div>
                         </div>
                       </td>
@@ -376,17 +376,17 @@
                         </div>
                       </td>
                       <td class="align-middle text-center text-sm">
-                        <span class="text-xs font-weight-bold"> 14,000 </span>
+                        <span class="text-xs font-weight-bold"> 349 900 LKR </span>
                       </td>
                       <td class="align-middle">
                         <div class="progress-wrapper w-75 mx-auto">
                           <div class="progress-info">
                             <div class="progress-percentage">
-                              <span class="text-xs font-weight-bold">60%</span>
+                              <span class="text-xs font-weight-bold">90%</span>
                             </div>
                           </div>
                           <div class="progress">
-                            <div class="progress-bar bg-gradient-info w-60" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar bg-gradient-info w-90" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
                           </div>
                         </div>
                       </td>
