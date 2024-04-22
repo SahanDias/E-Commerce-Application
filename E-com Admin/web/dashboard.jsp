@@ -316,7 +316,7 @@
             <div class="card-header pb-0">
               <div class="row">
                 <div class="col-lg-6 col-7">
-                  <h6>Best Selling Items</h6>
+                  <h6>Top Selling Items</h6>
                   <p class="text-sm mb-0">
                     <i class="fa fa-check text-info" aria-hidden="true"></i>
                     <span class="font-weight-bold ms-1">30 done</span> this month
@@ -512,10 +512,10 @@
                       <td>
                         <div class="d-flex px-2 py-1">
                           <div>
-                            <img src="assets/img/small-logos/logo-jira.svg" class="avatar avatar-sm me-3" alt="jira">
+                            <img src="assets/img/small-logos/nvidia.svg" class="avatar avatar-sm me-3" alt="jira">
                           </div>
                           <div class="d-flex flex-column justify-content-center">
-                            <h6 class="mb-0 text-sm">Add the New Pricing Page</h6>
+                            <h6 class="mb-0 text-sm">NVIDIA GeForce RTX 4070 SUPER</h6>
                           </div>
                         </div>
                       </td>
@@ -527,17 +527,17 @@
                         </div>
                       </td>
                       <td class="align-middle text-center text-sm">
-                        <span class="text-xs font-weight-bold"> $500 </span>
+                        <span class="text-xs font-weight-bold"> 180 000 LKR </span>
                       </td>
                       <td class="align-middle">
                         <div class="progress-wrapper w-75 mx-auto">
                           <div class="progress-info">
                             <div class="progress-percentage">
-                              <span class="text-xs font-weight-bold">25%</span>
+                              <span class="text-xs font-weight-bold">50%</span>
                             </div>
                           </div>
                           <div class="progress">
-                            <div class="progress-bar bg-gradient-info w-25" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="25"></div>
+                            <div class="progress-bar bg-gradient-info w-50" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="25"></div>
                           </div>
                         </div>
                       </td>
