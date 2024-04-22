@@ -1,3 +1,10 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package mypackage;
+
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.sql.SQLException;
@@ -6,7 +13,6 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
-import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -15,12 +21,11 @@ import javax.servlet.http.HttpServletResponse;
  *
  * @author User
  */
-@WebServlet("/AdminServlet")
-public class AdminServlet extends HttpServlet {
-    
+public class Adminservlet extends HttpServlet {
+
     private AdminDAO adminDAO;
     
-    public AdminServlet(){
+    public Adminservlet(){
         this.adminDAO= new AdminDAO();
     }
 
@@ -49,7 +54,7 @@ public class AdminServlet extends HttpServlet {
                     try {
                         insertAdmin(req, res);
                     } catch (SQLException ex) {
-                        Logger.getLogger(AdminServlet.class.getName()).log(Level.SEVERE, null, ex);
+                        Logger.getLogger(Adminservlet.class.getName()).log(Level.SEVERE, null, ex);
                     }
                 }
                 break;
@@ -60,9 +65,9 @@ public class AdminServlet extends HttpServlet {
                     try {
                         showeditform(req, res);
                     } catch (SecurityException ex) {
-                        Logger.getLogger(AdminServlet.class.getName()).log(Level.SEVERE, null, ex);
+                        Logger.getLogger(Adminservlet.class.getName()).log(Level.SEVERE, null, ex);
                     } catch (SQLException ex) {
-                        Logger.getLogger(AdminServlet.class.getName()).log(Level.SEVERE, null, ex);
+                        Logger.getLogger(Adminservlet.class.getName()).log(Level.SEVERE, null, ex);
                     }
                 }
                 break;
@@ -73,7 +78,7 @@ public class AdminServlet extends HttpServlet {
                     try {
                         updateAdmin(req, res);
                     } catch (SQLException ex) {
-                        Logger.getLogger(AdminServlet.class.getName()).log(Level.SEVERE, null, ex);
+                        Logger.getLogger(Adminservlet.class.getName()).log(Level.SEVERE, null, ex);
                     }
                 }
                 break;
@@ -84,7 +89,7 @@ public class AdminServlet extends HttpServlet {
                     try {
                         deleteadmin(req, res);
                     } catch (SQLException ex) {
-                        Logger.getLogger(AdminServlet.class.getName()).log(Level.SEVERE, null, ex);
+                        Logger.getLogger(Adminservlet.class.getName()).log(Level.SEVERE, null, ex);
                     }
                 }
                 break;
@@ -95,7 +100,7 @@ public class AdminServlet extends HttpServlet {
                     try {
                         listalladmin(req, res);
                     } catch (SQLException ex) {
-                        Logger.getLogger(AdminServlet.class.getName()).log(Level.SEVERE, null, ex);
+                        Logger.getLogger(Adminservlet.class.getName()).log(Level.SEVERE, null, ex);
                     }
                 }
         }
@@ -189,5 +194,4 @@ public class AdminServlet extends HttpServlet {
             e.printStackTrace();
         }
     }
-    
 }
