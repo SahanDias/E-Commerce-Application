@@ -43,13 +43,13 @@ public class Adminservlet extends HttpServlet {
         
         switch(uri){
             
-            case "newc":
-                System.out.println("customer new");
+            case "newa":
+                System.out.println("admin new");
                 shownewform(req, res);
                 break;
                 
-            case "insertc":
-                System.out.println("customer Insert");
+            case "inserta":
+                System.out.println("admin Insert");
                 {
                     try {
                         insertAdmin(req, res);
@@ -59,21 +59,18 @@ public class Adminservlet extends HttpServlet {
                 }
                 break;
             
-            case "editc":
-                System.out.println("customer Edit");
+            case "edita":
+                System.out.println("admin Edit");
                 {
                     try {
-                        showeditform(req, res);
-                    } catch (SecurityException ex) {
-                        Logger.getLogger(Adminservlet.class.getName()).log(Level.SEVERE, null, ex);
+                        listalladmin(req, res);
                     } catch (SQLException ex) {
                         Logger.getLogger(Adminservlet.class.getName()).log(Level.SEVERE, null, ex);
                     }
                 }
-                break;
                 
-            case "updatec":
-                System.out.println("customer update");
+            case "updatea":
+                System.out.println("admin update");
                 {
                     try {
                         updateAdmin(req, res);
@@ -83,8 +80,8 @@ public class Adminservlet extends HttpServlet {
                 }
                 break;
                 
-            case "deletec":
-                System.out.println("customer delete");
+            case "deletea":
+                System.out.println("admin delete");
                 {
                     try {
                         deleteadmin(req, res);
@@ -95,7 +92,7 @@ public class Adminservlet extends HttpServlet {
                 break;
                 
             default:
-                System.out.println("customer default");
+                System.out.println("admin default");
                 {
                     try {
                         listalladmin(req, res);

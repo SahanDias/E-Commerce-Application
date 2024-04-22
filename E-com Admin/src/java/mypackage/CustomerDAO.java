@@ -60,7 +60,7 @@ public class CustomerDAO {
         }
     }
     
-    public List<Customer> selectallcustomers (){
+    public List<Customer> selectallCustomers (){
         List<Customer> customers = new ArrayList<>();
         Customer customer= null;
         try {
@@ -82,7 +82,7 @@ public class CustomerDAO {
         return customers;
     }
     
-    public boolean deletecustomer (int id){
+    public boolean deleteCustomer (int id){
         boolean rowdelete = false;
         try {
             Connection connection = getConnection();
