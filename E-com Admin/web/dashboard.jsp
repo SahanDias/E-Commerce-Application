@@ -247,8 +247,8 @@
                 <i class="material-icons opacity-10">weekend</i>
               </div>
               <div class="text-end pt-1">
-                <p class="text-sm mb-0 text-capitalize">Today's Money</p>
-                <h4 class="mb-0">$53k</h4>
+                <p class="text-sm mb-0 text-capitalize">Today's Orders</p>
+                <h4 class="mb-0">53</h4>
               </div>
             </div>
             <hr class="dark horizontal my-0">
@@ -264,7 +264,7 @@
                 <i class="material-icons opacity-10">person</i>
               </div>
               <div class="text-end pt-1">
-                <p class="text-sm mb-0 text-capitalize">Today's Users</p>
+                <p class="text-sm mb-0 text-capitalize">Today's Customers</p>
                 <h4 class="mb-0">2,300</h4>
               </div>
             </div>
@@ -298,8 +298,8 @@
                 <i class="material-icons opacity-10">weekend</i>
               </div>
               <div class="text-end pt-1">
-                <p class="text-sm mb-0 text-capitalize">Sales</p>
-                <h4 class="mb-0">$103,430</h4>
+                <p class="text-sm mb-0 text-capitalize">Today Sales</p>
+                <h4 class="mb-0">103,430 LKR</h4>
               </div>
             </div>
             <hr class="dark horizontal my-0">
