@@ -1,6 +1,6 @@
 <%-- 
-    Document   : fashion
-    Created on : Apr 21, 2024, 8:45:48 PM
+    Document   : seemore
+    Created on : Apr 22, 2024, 12:14:21 PM
     Author     : Hashini
 --%>
 
@@ -12,7 +12,7 @@
         <title>JSP Page</title>
     </head>
     <body>
-       <!DOCTYPE html>
+        <!DOCTYPE html>
 <html lang="en">
    <head>
       <!-- basic -->
@@ -192,141 +192,180 @@
             <div class="carousel-inner">
                <div class="carousel-item active">
                   <div class="container">
-                     <h1 class="fashion_taital">Mans  Fashion</h1>
+                     <h1 class="fashion_taital">LAPTOPS</h1>
                      <div class="fashion_section_2">
                         <div class="row">
                            <div class="col-lg-4 col-sm-4">
                               <div class="box_main">
-                                  <h4 class="shirt_text">Two piece outfit for Men </h4>
+                                  <h4 class="shirt_text">ROSE GOLD HP LAPTOP </h4>
+                                 <p class="price_text">Price  <span style="color: #262626;">LKR 7000</span></p>
+                                 <div class="tshirt_img"><img src="images/Rose Gold HP Laptop.jpg"></div>
+                                 <div class="btn_main">
+                                    <div class="buy_bt"><a href="#">Buy Now</a></div>
+                                    <div class="seemore_bt"><a href="seemore.jsp">Add To Cart</a></div>
+                                 </div>
+                              </div>
+                           </div>
+                             <div class="col-lg-4 col-sm-4">
+                              <div class="box_main">
+                                 <h4 class="shirt_text">HP SPECTRE *360</h4>
+                                 <p class="price_text">Price  <span style="color: #262626;">LKR 7000</span></p>
+                                 <div class="tshirt_img"><img src="images/HP Spectre 360.jpg"></div>
+                                 <div class="btn_main">
+                                    <div class="buy_bt"><a href="#">Buy Now</a></div>
+                                    <div class="seemore_bt"><a href="#">Add To Cart</a></div>
+                                 </div>
+                              </div>
+                           </div>
+                             <div class="col-lg-4 col-sm-4">
+                              <div class="box_main">
+                                 <h4 class="shirt_text">HP SPECTRE FOLIO</h4>
+                                 <p class="price_text">Price  <span style="color: #262626;">LKR 7000</span></p>
+                                 <div class="tshirt_img"><img src="images/HP Spectre Folio.jpg"></div>
+                                 <div class="btn_main">
+                                    <div class="buy_bt"><a href="#">Buy Now</a></div>
+                                    <div class="seemore_bt"><a href="#">Add To Cart</a></div>
+                                 </div>
+                              </div>
+                           </div>
+                            <h1 class="fashion_taital">MAC SERIES</h1>
+                             <div class="col-lg-4 col-sm-4">
+                              <div class="box_main">
+                                 <h4 class="shirt_text">MACBOOK AIR PRO</h4>
+                                 <p class="price_text">Price  <span style="color: #262626;">LKR 6000</span></p>
+                                 <div class="tshirt_img"><img src="images/macbook air pro.jpg"></div>
+                                 <div class="btn_main">
+                                    <div class="buy_bt"><a href="#">Buy Now</a></div>
+                                    <div class="seemore_bt"><a href="#">Add To Cart</a></div>
+                                 </div>
+                              </div>
+                           </div>
+                             <div class="col-lg-4 col-sm-4">
+                              <div class="box_main">
+                                 <h4 class="shirt_text">MACBOOK AIR</h4>
+                                 <p class="price_text">Price  <span style="color: #262626;">LKR 6000</span></p>
+                                 <div class="tshirt_img"><img src="images/macbook air.jpg"></div>
+                                 <div class="btn_main">
+                                    <div class="buy_bt"><a href="#">Buy Now</a></div>
+                                    <div class="seemore_bt"><a href="#">Add To Cart</a></div>
+                                 </div>
+                              </div>
+                           </div>
+                             <div class="col-lg-4 col-sm-4">
+                              <div class="box_main">
+                                 <h4 class="shirt_text">MACBOOK PRO</h4>
+                                 <p class="price_text">Price  <span style="color: #262626;">LKR 6000</span></p>
+                                 <div class="tshirt_img"><img src="images/macbook pro.jpg"></div>
+                                 <div class="btn_main">
+                                    <div class="buy_bt"><a href="#">Buy Now</a></div>
+                                    <div class="seemore_bt"><a href="#">Add To Cart</a></div>
+                                 </div>
+                              </div>
+                           </div>
+                            <h1 class="fashion_taital">I PHONE SERIES</h1>
+                             <div class="col-lg-4 col-sm-4">
+                              <div class="box_main">
+                                 <h4 class="shirt_text">I 12 PRO MAX</h4>
+                                 <p class="price_text">Price  <span style="color: #262626;">LKR 3000</span></p>
+                                 <div class="tshirt_img"><img src="images/i12 pro max.jpg"></div>
+                                 <div class="btn_main">
+                                    <div class="buy_bt"><a href="#">Buy Now</a></div>
+                                    <div class="seemore_bt"><a href="#">Add To Cart</a></div>
+                                 </div>
+                              </div>
+                           </div>
+                             <div class="col-lg-4 col-sm-4">
+                              <div class="box_main">
+                                 <h4 class="shirt_text">I 14 PRO</h4>
+                                 <p class="price_text">Price  <span style="color: #262626;">LKR 3000</span></p>
+                                 <div class="tshirt_img"><img src="images/i14 pro.jpg"></div>
+                                 <div class="btn_main">
+                                    <div class="buy_bt"><a href="#">Buy Now</a></div>
+                                    <div class="seemore_bt"><a href="#">Add To Cart</a></div>
+                                 </div>
+                              </div>
+                           </div>
+                             <div class="col-lg-4 col-sm-4">
+                              <div class="box_main">
+                                 <h4 class="shirt_text">I 15 </h4>
+                                 <p class="price_text">Price  <span style="color: #262626;">LKR 3000</span></p>
+                                 <div class="tshirt_img"><img src="images/i15.jpg"></div>
+                                 <div class="btn_main">
+                                    <div class="buy_bt"><a href="#">Buy Now</a></div>
+                                    <div class="seemore_bt"><a href="#">Add To Cart</a></div>
+                                 </div>
+                              </div>
+                           </div>
+                             <h1 class="fashion_taital">CAMARAS</h1>
+                             <div class="col-lg-4 col-sm-4">
+                              <div class="box_main">
+                                 <h4 class="shirt_text">CANON 22</h4>
+                                 <p class="price_text">Price  <span style="color: #262626;">LKR 300,000</span></p>
+                                 <div class="tshirt_img"><img src="images/canon22.jpg"></div>
+                                 <div class="btn_main">
+                                    <div class="buy_bt"><a href="#">Buy Now</a></div>
+                                    <div class="seemore_bt"><a href="#">Add To Cart</a></div>
+                                 </div>
+                              </div>
+                           </div>
+                             <div class="col-lg-4 col-sm-4">
+                              <div class="box_main">
+                                 <h4 class="shirt_text">CONNON EOS R50</h4>
+                                 <p class="price_text">Price  <span style="color: #262626;">LKR 500,000</span></p>
+                                 <div class="tshirt_img"><img src="images/canonEOSR50.jpg"></div>
+                                 <div class="btn_main">
+                                    <div class="buy_bt"><a href="#">Buy Now</a></div>
+                                    <div class="seemore_bt"><a href="#">Add To Cart</a></div>
+                                 </div>
+                              </div>
+                           </div>
+                             <div class="col-lg-4 col-sm-4">
+                              <div class="box_main">
+                                 <h4 class="shirt_text">CONNON EOS RP</h4>
+                                 <p class="price_text">Price  <span style="color: #262626;">LKR 100,000</span></p>
+                                 <div class="tshirt_img"><img src="images/canonEOSRP.jpg"></div>
+                                 <div class="btn_main">
+                                    <div class="buy_bt"><a href="#">Buy Now</a></div>
+                                    <div class="seemore_bt"><a href="#">Add To Cart</a></div>
+                                 </div>
+                              </div>
+                           </div>
+                              <h1 class="fashion_taital">HEAD PHONES</h1>
+                              <div class="col-lg-4 col-sm-4">
+                              <div class="box_main">
+                                 <h4 class="shirt_text">AKG ARCHIVES</h4>
                                  <p class="price_text">Price  <span style="color: #262626;">LKR 4000</span></p>
-                                 <div class="tshirt_img"><img src="images/new men 1.jpg"></div>
+                                 <div class="tshirt_img"><img src="images/AKG Archives.jpg"></div>
                                  <div class="btn_main">
                                     <div class="buy_bt"><a href="#">Buy Now</a></div>
-                                    <div class="seemore_bt"><a href="#">See More</a></div>
+                                    <div class="seemore_bt"><a href="#">Add To Cart</a></div>
                                  </div>
                               </div>
                            </div>
-                           <div class="col-lg-4 col-sm-4">
+                              <div class="col-lg-4 col-sm-4">
                               <div class="box_main">
-                                 <h4 class="shirt_text">Two piece outfit for Men</h4>
+                                 <h4 class="shirt_text">SONY WH-CH520</h4>
                                  <p class="price_text">Price  <span style="color: #262626;">LKR 4000</span></p>
-                                 <div class="tshirt_img"><img src="images/new men 2.jpg"></div>
+                                 <div class="tshirt_img"><img src="images/sony WH-CH520.jpg"></div>
                                  <div class="btn_main">
                                     <div class="buy_bt"><a href="#">Buy Now</a></div>
-                                    <div class="seemore_bt"><a href="#">See More</a></div>
+                                    <div class="seemore_bt"><a href="#">Add To Cart</a></div>
                                  </div>
                               </div>
                            </div>
-                           <div class="col-lg-4 col-sm-4">
+                             <div class="col-lg-4 col-sm-4">
                               <div class="box_main">
-                                 <h4 class="shirt_text">Two piece outfit for Men</h4>
+                                 <h4 class="shirt_text">SONY WIRELESS HEADPHONE</h4>
                                  <p class="price_text">Price  <span style="color: #262626;">LKR 4000</span></p>
-                                 <div class="tshirt_img"><img src="images/new men 3.jpg"></div>
+                                 <div class="tshirt_img"><img src="images/sony wirless headphone.jpg"></div>
                                  <div class="btn_main">
                                     <div class="buy_bt"><a href="#">Buy Now</a></div>
-                                    <div class="seemore_bt"><a href="#">See More</a></div>
+                                    <div class="seemore_bt"><a href="#">Add To Cart</a></div>
                                  </div>
                               </div>
                            </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="carousel-item">
-                  <div class="container">
-                     <h1 class="fashion_taital"> Woman Fashion</h1>
-                     <div class="fashion_section_2">
-                        <div class="row">
-                           <div class="col-lg-4 col-sm-4">
-                              <div class="box_main">
-                                 <h4 class="shirt_text">Two piece outfit for Woman</h4>
-                                 <p class="price_text">Price  <span style="color: #262626;">LKR 3500</span></p>
-                                 <div class="tshirt_img"><img src="images/new wear.jpg"></div>
-                                 <div class="btn_main">
-                                    <div class="buy_bt"><a href="#">Buy Now</a></div>
-                                    <div class="seemore_bt"><a href="#">See More</a></div>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-lg-4 col-sm-4">
-                              <div class="box_main">
-                                 <h4 class="shirt_text">Two piece outfit for Woman</h4>
-                                 <p class="price_text">Price  <span style="color: #262626;">LKR 3500</span></p>
-                                 <div class="tshirt_img"><img src="images/new wenar 2.jpg"></div>
-                                 <div class="btn_main">
-                                    <div class="buy_bt"><a href="#">Buy Now</a></div>
-                                    <div class="seemore_bt"><a href="#">See More</a></div>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-lg-4 col-sm-4">
-                              <div class="box_main">
-                                 <h4 class="shirt_text">Two piece outfit for Woman</h4>
-                                 <p class="price_text">Price  <span style="color: #262626;">LKR 3500</span></p>
-                                 <div class="tshirt_img"><img src="images/new wear 3.jpg"></div>
-                                 <div class="btn_main">
-                                    <div class="buy_bt"><a href="#">Buy Now</a></div>
-                                    <div class="seemore_bt"><a href="#">See More</a></div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="carousel-item">
-                  <div class="container">
-                     <h1 class="fashion_taital">Kids Fashion</h1>
-                     <div class="fashion_section_2">
-                        <div class="row">
-                           <div class="col-lg-4 col-sm-4">
-                              <div class="box_main">
-                                 <h4 class="shirt_text">Two piece outfit for kids</h4>
-                                 <p class="price_text">Price  <span style="color: #262626;">LKR 2500</span></p>
-                                 <div class="tshirt_img"><img src="images/new kids.jpg"></div>
-                                 <div class="btn_main">
-                                    <div class="buy_bt"><a href="#">Buy Now</a></div>
-                                    <div class="seemore_bt"><a href="#">See More</a></div>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-lg-4 col-sm-4">
-                              <div class="box_main">
-                                 <h4 class="shirt_text">Two piece outfit for kids</h4>
-                                 <p class="price_text">Price  <span style="color: #262626;">LKR 2500</span></p>
-                                 <div class="tshirt_img"><img src="images/new kids2.jpg"></div>
-                                 <div class="btn_main">
-                                    <div class="buy_bt"><a href="#">Buy Now</a></div>
-                                    <div class="seemore_bt"><a href="#">See More</a></div>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-lg-4 col-sm-4">
-                              <div class="box_main">
-                                 <h4 class="shirt_text">Two piece outfit for kids</h4>
-                                 <p class="price_text">Price  <span style="color: #262626;">LKR 2500</span></p>
-                                 <div class="tshirt_img"><img src="images/new kids 3.jpg"></div>
-                                 <div class="btn_main">
-                                    <div class="buy_bt"><a href="#">Buy Now</a></div>
-                                    <div class="seemore_bt"><a href="#">See More</a></div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <a class="carousel-control-prev" href="#main_slider" role="button" data-slide="prev">
-            <i class="fa fa-angle-left"></i>
-            </a>
-            <a class="carousel-control-next" href="#main_slider" role="button" data-slide="next">
-            <i class="fa fa-angle-right"></i>
-            </a>
-         </div>
-      </div>
-      <!-- fashion section end -->
-      <!-- footer section start -->
+                                 
+                             <!-- footer section start -->
       <div class="footer_section layout_padding">
          <div class="container">
             <div class="footer_logo"><a href="index.html"><img src="images/footer-logo.png"></a></div>
@@ -372,7 +411,5 @@
            document.getElementById("mySidenav").style.width = "0";
          }
       </script>
-   </body>
-</html>
     </body>
 </html>
