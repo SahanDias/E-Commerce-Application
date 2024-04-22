@@ -8,6 +8,7 @@ package mypackage;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.sql.SQLException;
+import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.servlet.RequestDispatcher;
@@ -85,10 +86,24 @@ public class Customerservlet extends HttpServlet {
                     
                 case "updatec":
                     System.out.println("update customer");
+                    {
+                        try {
+                            updatecustomer(req, res);
+                        } catch (SQLException ex) {
+                            Logger.getLogger(Customerservlet.class.getName()).log(Level.SEVERE, null, ex);
+                        }
+                    }
                     break;
                     
                 default:
                     System.out.println("default casec");
+                    {
+                        try {
+                            listallcustomers(req, res);
+                        } catch (SQLException ex) {
+                            Logger.getLogger(Customerservlet.class.getName()).log(Level.SEVERE, null, ex);
+                        }
+                    }
                     
             }
 
@@ -133,7 +148,7 @@ public class Customerservlet extends HttpServlet {
             int id = Integer.parseInt(req.getParameter("id"));
             customerDAO.deleteCustomer(id);
             //add customer table file path
-            res.sendRedirect("costomer table");
+            res.sendRedirect("customer table");
             
         } catch (Exception e) {
             e.printStackTrace();
@@ -150,6 +165,41 @@ public class Customerservlet extends HttpServlet {
             RequestDispatcher rd = req.getRequestDispatcher("/update.jsp");
             //<c: jstl value
             req.setAttribute("customer", existcustomer);
+            rd.forward(req, res);
+            
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+    
+    private void updatecustomer (HttpServletRequest req, HttpServletResponse res)
+            throws IOException, ServletException, SQLException {
+        
+        try {
+            int id = Integer.parseInt(req.getParameter("id"));
+            String name = req.getParameter("name");
+            String email = req.getParameter("email");
+            String address = req.getParameter("address");
+            String mobile = req.getParameter("mobile");
+            Customer updatecust = new Customer(name,email,address,mobile);
+            customerDAO.updateCustomer(updatecust);
+            //add customer table jsp file path
+            res.sendRedirect("/table.jsp");
+            
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+    
+    private void listallcustomers (HttpServletRequest req, HttpServletResponse res)
+            throws IOException, SQLException, ServletException {
+        
+        try {
+            List<Customer> listcustomer = customerDAO.selectallCustomers();
+            //add customer table file path
+            RequestDispatcher rd = req.getRequestDispatcher("/customer table.jsp");
+            //<c: jstl value
+            req.setAttribute("customer",listcustomer);
             rd.forward(req, res);
             
         } catch (Exception e) {
