@@ -546,7 +546,7 @@
                       <td>
                         <div class="d-flex px-2 py-1">
                           <div>
-                            <img src="assets/img/small-logos/intel.svg" class="avatar avatar-sm me-3" alt="invision">
+                            <img src="assets/img/small-logos/Intel.svg" class="avatar avatar-sm me-3" alt="invision">
                           </div>
                           <div class="d-flex flex-column justify-content-center">
                             <h6 class="mb-0 text-sm">INTEL® CORE™ i9 -14900K PROCESSOR</h6>
