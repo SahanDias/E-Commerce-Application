@@ -198,8 +198,9 @@
                            <div class="col-lg-4 col-sm-4">
                               <div class="box_main">
                                   <h4 class="shirt_text">ROSE GOLD HP LAPTOP </h4>
-                                 <p class="price_text">Price  <span style="color: #262626;">LKR 7000</span></p>
+                                 <p class="price_text">Price  <span style="color: #262626;">LKR 204,596</span></p>
                                  <div class="tshirt_img"><img src="images/Rose Gold HP Laptop.jpg"></div>
+                                 <p>Rose Gold HP Laptop 15.6" HD AMD Quad Core Ryzen 5 256GB SSD 8GB RAM Pink New </p>                                               
                                  <div class="btn_main">
                                     <div class="buy_bt"><a href="#">Buy Now</a></div>
                                     <div class="seemore_bt"><a href="seemore.jsp">Add To Cart</a></div>
@@ -209,8 +210,9 @@
                              <div class="col-lg-4 col-sm-4">
                               <div class="box_main">
                                  <h4 class="shirt_text">HP SPECTRE *360</h4>
-                                 <p class="price_text">Price  <span style="color: #262626;">LKR 7000</span></p>
+                                 <p class="price_text">Price  <span style="color: #262626;">LKR 499,000</span></p>
                                  <div class="tshirt_img"><img src="images/HP Spectre 360.jpg"></div>
+                                 <p>Commercial Notebooks,Consumer Notebooks,Core i7 Laptops,Laptops & Desktops,Laptops &Tabs,Touch Laptops</p>
                                  <div class="btn_main">
                                     <div class="buy_bt"><a href="#">Buy Now</a></div>
                                     <div class="seemore_bt"><a href="#">Add To Cart</a></div>
@@ -220,8 +222,9 @@
                              <div class="col-lg-4 col-sm-4">
                               <div class="box_main">
                                  <h4 class="shirt_text">HP SPECTRE FOLIO</h4>
-                                 <p class="price_text">Price  <span style="color: #262626;">LKR 7000</span></p>
+                                 <p class="price_text">Price  <span style="color: #262626;">LKR 210,000</span></p>
                                  <div class="tshirt_img"><img src="images/HP Spectre Folio.jpg"></div>
+                                 <p>Windows 10 Home 64,8th Generation Intel® Core™ i7 processor,Intel® UHD Graphics 615,8 GB memory; 256 GB SSD storage</p>
                                  <div class="btn_main">
                                     <div class="buy_bt"><a href="#">Buy Now</a></div>
                                     <div class="seemore_bt"><a href="#">Add To Cart</a></div>
@@ -231,9 +234,10 @@
                             <h1 class="fashion_taital">MAC SERIES</h1>
                              <div class="col-lg-4 col-sm-4">
                               <div class="box_main">
-                                 <h4 class="shirt_text">MACBOOK AIR PRO</h4>
-                                 <p class="price_text">Price  <span style="color: #262626;">LKR 6000</span></p>
+                                 <h4 class="shirt_text">MACBOOK AIR 15" M2</h4>
+                                 <p class="price_text">Price  <span style="color: #262626;">LKR 379,900</span></p>
                                  <div class="tshirt_img"><img src="images/macbook air pro.jpg"></div>
+                                 <p>Apple M2 chip with 8‑core CPU, 10‑core GPU, 16‑core Neural Engine,8GB unified memory,15.3-inch Liquid Retina display with True Tone</p>
                                  <div class="btn_main">
                                     <div class="buy_bt"><a href="#">Buy Now</a></div>
                                     <div class="seemore_bt"><a href="#">Add To Cart</a></div>
@@ -242,9 +246,10 @@
                            </div>
                              <div class="col-lg-4 col-sm-4">
                               <div class="box_main">
-                                 <h4 class="shirt_text">MACBOOK AIR</h4>
-                                 <p class="price_text">Price  <span style="color: #262626;">LKR 6000</span></p>
+                                 <h4 class="shirt_text">MACBOOK AIR M2</h4>
+                                 <p class="price_text">Price  <span style="color: #262626;">LKR 339,900</span></p>
                                  <div class="tshirt_img"><img src="images/macbook air.jpg"></div>
+                                 <P>Apple M2 chip with 8‑core CPU, 8‑core GPU, 16‑core Neural Engine,8GB unified memory,30W USB-C Power Adapter</P>
                                  <div class="btn_main">
                                     <div class="buy_bt"><a href="#">Buy Now</a></div>
                                     <div class="seemore_bt"><a href="#">Add To Cart</a></div>
@@ -254,8 +259,9 @@
                              <div class="col-lg-4 col-sm-4">
                               <div class="box_main">
                                  <h4 class="shirt_text">MACBOOK PRO</h4>
-                                 <p class="price_text">Price  <span style="color: #262626;">LKR 6000</span></p>
+                                 <p class="price_text">Price  <span style="color: #262626;">LKR 1,189,000</span></p>
                                  <div class="tshirt_img"><img src="images/macbook pro.jpg"></div>
+                                 <p>MBP 16.2-inch / M3 Pro / 12C CPU / 18C GPU / 18GB / 512GB</p>
                                  <div class="btn_main">
                                     <div class="buy_bt"><a href="#">Buy Now</a></div>
                                     <div class="seemore_bt"><a href="#">Add To Cart</a></div>
