@@ -186,20 +186,20 @@
          <!-- banner section end -->
       </div>
       <!-- banner bg main end -->
-      <!-- fashion section start -->
-      <div class="fashion_section">
+      <!-- product section start -->
+      <div class="product_section">
          <div id="main_slider" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                <div class="carousel-item active">
                   <div class="container">
-                     <h1 class="fashion_taital">LAPTOPS</h1>
-                     <div class="fashion_section_2">
+                     <h1 class="product_taital">LAPTOPS</h1>
+                     <div class="product_section_2">
                         <div class="row">
                            <div class="col-lg-4 col-sm-4">
-                              <div class="box_main">
-                                  <h4 class="shirt_text">ROSE GOLD HP LAPTOP </h4>
+                              <div class="lap1_main">
+                                  <h4 class="laptop_text">ROSE GOLD HP LAPTOP </h4>
                                  <p class="price_text">Price  <span style="color: #262626;">LKR 204,596</span></p>
-                                 <div class="tshirt_img"><img src="images/Rose Gold HP Laptop.jpg"></div>
+                                 <div class="laptop_img"><img src="images/Rose Gold HP Laptop.jpg"></div>
                                  <p>Rose Gold HP Laptop 15.6" HD AMD Quad Core Ryzen 5 256GB SSD 8GB RAM Pink New </p>                                               
                                  <div class="btn_main">
                                     <div class="buy_bt"><a href="#">Buy Now</a></div>

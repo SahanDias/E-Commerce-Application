@@ -548,15 +548,15 @@ a:hover {
 /* banner section end */
 
 
-/* fashion section start */
+/* product section start */
 
-.fashion_section {
+.product_section {
     width: 100%;
     float: left;
     padding-bottom: 150px;
 }
 
-.fashion_taital {
+.product_taital {
     width: 100%;
     font-size: 40px;
     color: #30302e;
@@ -564,12 +564,12 @@ a:hover {
     font-weight: bold;
 }
 
-.fashion_section_2 {
+.product_section_2 {
     width: 100%;
     margin-top: 30px;
 }
 
-.box_main {
+.lap1_main {
     width: 100%;
     background-color: #ffffff;
     height: auto;
@@ -578,7 +578,7 @@ a:hover {
     margin-bottom: 20px;
 }
 
-.shirt_text {
+.laptop_text {
     width: 100%;
     font-size: 20px;
     color: #30302e;
@@ -587,7 +587,7 @@ a:hover {
     padding-bottom: 5px;
 }
 
-.price_text {
+.laptop_text {
     width: 100%;
     font-size: 16px;
     color: #f26522;
@@ -595,7 +595,7 @@ a:hover {
     margin: 0px;
 }
 
-.tshirt_img {
+.laptop_img {
     width: 100%;
     text-align: center;
     margin: 50px 0px;
@@ -674,7 +674,7 @@ a:hover {
 }
 
 
-/* fashion section end */
+/* product section end */
 
 
 /* electronic section start */
