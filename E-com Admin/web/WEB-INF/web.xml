@@ -4,9 +4,25 @@
         <servlet-name>Adminservlet</servlet-name>
         <servlet-class>mypackage.Adminservlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>Customerservlet</servlet-name>
+        <servlet-class>mypackage.Customerservlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>test</servlet-name>
+        <servlet-class>mypackage.test</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>Adminservlet</servlet-name>
-        <url-pattern>/Adminservlet/*</url-pattern>
+        <url-pattern>/Adminservlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Customerservlet</servlet-name>
+        <url-pattern>/Customerservlet/*</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>test</servlet-name>
+        <url-pattern>/test</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

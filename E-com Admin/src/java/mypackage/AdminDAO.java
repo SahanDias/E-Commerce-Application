@@ -25,7 +25,7 @@ public class AdminDAO {
     private String password = "";
     
     private static final String INSERT_ADMIN_SQL = "insert into admins"+"(name,email,mobile) values"+"(?,?,?);";
-    private static final String SELECT_ALL_ADMIN = "select * from admins";
+    private static final String SELECT_ALL_ADMIN = "select * from admins;";
     private static final String DELETE_ADMIN_SQL = "delete from admins where id=?;";
     private static final String UPDATE_ADMIN_SQL = "update admins set name = ?, email = ?, mobile = ? where id=?;";
     private static final String SELECT_ADMIN_BY_ID = "select * from admins where id=?;";
