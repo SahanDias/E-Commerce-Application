@@ -3,6 +3,7 @@ package Mypackages;
 
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.sql.SQLException;
 import java.util.List;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -60,14 +61,16 @@ public class productservlet extends HttpServlet {
     }
         
         private void showhomepage(HttpServletRequest request, HttpServletResponse response)
-            throws ServletException, IOException{
+            throws ServletException, IOException, SQLException{
             try{
                List<Products> allphones =productdov.selectAllPhones();
-               RequestDispatcher.dispatcher=request.getRequestDispatcher("/.");
+               RequestDispatcher dis =request.getRequestDispatcher("/produt.jsp");
                request.setAttribute("allphones", allphones);
-               dispatcher.
+               dis.forward(request, response);
             }
-            catch()
+            catch(IOException | ServletException e){
+                e.printStackTrace();
+            }
         }
         
     
