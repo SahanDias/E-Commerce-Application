@@ -211,7 +211,7 @@
                               <div class="lap1_main">
                                  <h4 class="laptop_text">HP SPECTRE *360</h4>
                                  <p class="price_text">Price  <span style="color: #262626;">LKR 499,000</span></p>
-                                 <div class="laptop_img"><img src="images/HP Spectre 360.jpg"></div>
+                                 <div class="laptop_img"><img src="images/HP Spectre x360.jpg"></div>
                                  <p>Commercial Notebooks,Consumer Notebooks,Core i7 Laptops,Laptops & Desktops,Laptops &Tabs,Touch Laptops</p>
                                  <div class="btn_main">
                                     <div class="buy_bt"><a href="buy now.jsp">Buy Now</a></div>
@@ -310,7 +310,7 @@
                               <div class="lap1_main">
                                  <h4 class="laptop_text">CANON EOS R5</h4>
                                  <p class="price_text">Price  <span style="color: #262626;">LKR 300,000</span></p>
-                                 <div class="laptop_img"><img src="images/canon22.jpg"></div>
+                                 <div class="laptop_img"><img src="images/canon 22.jpg"></div>
                                  <p>Approx. 45MP full-frame CMOS sensor,Up to 8-stop In-Body Image Stabilizer X Optical Image Stabilizer,Up to 20 FPS + Animal Detection AF,8K DCI movie + 4K DCI 120 fps video recording capability,The EOS R5 is here with groundbreaking 8K resolution video recording</p>
                                  <div class="btn_main">
                                     <div class="buy_bt"><a href="buy now.jsp">Buy Now</a></div>
@@ -322,7 +322,7 @@
                               <div class="lap1_main">
                                  <h4 class="laptop_text">CANON EOS R50</h4>
                                  <p class="price_text">Price  <span style="color: #262626;">LKR 299,000</span></p>
-                                 <div class="laptop_img"><img src="images/canonEOSR50.jpg"></div>
+                                 <div class="laptop_img"><img src="images/canon EOS R50.jpg"></div>
                                  <p>Bringing together the mobile versatility of the EOS R50 mirrorless camera with a lens, shotgun microphone, and tripod grip, the EOS R50 Content Creator Kit from Canon is a starter's bundle tailored for vloggers, videographers, and visionaries who are keen to record their world in high-quality detail</p>
                                  <div class="btn_main">
                                     <div class="buy_bt"><a href="buy now.jsp">Buy Now</a></div>
@@ -334,7 +334,7 @@
                               <div class="lap1_main">
                                  <h4 class="laptop_text">CANON EOS RP</h4>
                                  <p class="price_text">Price  <span style="color: #262626;">LKR 335,500</span></p>
-                                 <div class="laptop_img"><img src="images/canonEOSRP.jpg"></div>
+                                 <div class="laptop_img"><img src="images/canon EOS RP.jpg"></div>
                                  <p>Impressively small despite having a large full-frame sensor, the Canon EOS RP offers flexible imaging capabilities along with a portable form factor. Featuring a high-resolution 26.2MP full-frame CMOS sensor along with a DIGIC 8 image processor</p>
                                  <div class="btn_main">
                                     <div class="buy_bt"><a href="buy now.jsp">Buy Now</a></div>
