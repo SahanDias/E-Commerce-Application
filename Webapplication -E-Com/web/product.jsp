@@ -209,9 +209,9 @@
                            </div>
                              <div class="col-lg-4 col-sm-4">
                               <div class="box_main">
-                                 <h4 class="shirt_text">HP SPECTRE *360</h4>
+                                 <h4 class="laptop_text">HP SPECTRE *360</h4>
                                  <p class="price_text">Price  <span style="color: #262626;">LKR 499,000</span></p>
-                                 <div class="tshirt_img"><img src="images/HP Spectre 360.jpg"></div>
+                                 <div class="laptop_img"><img src="images/HP Spectre 360.jpg"></div>
                                  <p>Commercial Notebooks,Consumer Notebooks,Core i7 Laptops,Laptops & Desktops,Laptops &Tabs,Touch Laptops</p>
                                  <div class="btn_main">
                                     <div class="buy_bt"><a href="#">Buy Now</a></div>
