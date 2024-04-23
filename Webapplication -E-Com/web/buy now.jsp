@@ -24,29 +24,29 @@
                 <h3 class="title">billing address</h3>
 
                 <div class="inputBox">
-                    <span>full name :</span>
+                    <span>Full name :</span>
                     <input type="text" placeholder="john deo">
                 </div>
                 <div class="inputBox">
-                    <span>email :</span>
+                    <span>Email :</span>
                     <input type="email" placeholder="example@example.com">
                 </div>
                 <div class="inputBox">
-                    <span>address :</span>
+                    <span>Address :</span>
                     <input type="text" placeholder="room - street - locality">
                 </div>
                 <div class="inputBox">
-                    <span>city :</span>
-                    <input type="text" placeholder="mumbai">
+                    <span>City :</span>
+                    <input type="text" placeholder="colombo">
                 </div>
 
                 <div class="flex">
                     <div class="inputBox">
-                        <span>state :</span>
-                        <input type="text" placeholder="india">
+                        <span>State :</span>
+                        <input type="text" placeholder="western">
                     </div>
                     <div class="inputBox">
-                        <span>zip code :</span>
+                        <span>Zip code :</span>
                         <input type="text" placeholder="123 456">
                     </div>
                 </div>
@@ -55,28 +55,28 @@
 
             <div class="col">
 
-                <h3 class="title">payment</h3>
+                <h3 class="title">Payment</h3>
 
                 <div class="inputBox">
-                    <span>cards accepted :</span>
+                    <span>Cards accepted :</span>
                     <img src="images/card_img.png" alt="">
                 </div>
                 <div class="inputBox">
-                    <span>name on card :</span>
+                    <span>Name on card :</span>
                     <input type="text" placeholder="mr. john deo">
                 </div>
                 <div class="inputBox">
-                    <span>credit card number :</span>
+                    <span>Credit card number :</span>
                     <input type="number" placeholder="1111-2222-3333-4444">
                 </div>
                 <div class="inputBox">
-                    <span>exp month :</span>
+                    <span>Exp month :</span>
                     <input type="text" placeholder="january">
                 </div>
 
                 <div class="flex">
                     <div class="inputBox">
-                        <span>exp year :</span>
+                        <span>Exp year :</span>
                         <input type="number" placeholder="2022">
                     </div>
                     <div class="inputBox">
