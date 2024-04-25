@@ -44,7 +44,7 @@
                <div class="col-md-6">
                   <div class="contact_main">
                       <div class="contact_bt" style="text-align: center;justify-content: center;margin-top: 150px;margin-left: 200px;margin-right: 200px;border-radius: 50px;font-size: 30px;background-color: blueviolet">
-                          <a href="#">Let's talk</a>
+                          <a href="contactForm.jsp">Let's talk</a>
                       </div>
                   </div>
                </div>
