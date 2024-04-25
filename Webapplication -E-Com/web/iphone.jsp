@@ -191,11 +191,10 @@
             <div class="carousel-inner">
                <div class="carousel-item active">
                   <div class="container">
-                     <h1 class="product_taital">LAPTOPS</h1>
-                     <div class="product_section_2">
-                        <div class="row">
-                           <div class="col-lg-4 col-sm-4">
-                            <div class="col-lg-4 col-sm-4">
+                 <h1 class="product_taital">I PHONE SERIES</h1>
+                 <div class="product_section_2"> 
+                      <div class="row">
+                             <div class="col-lg-4 col-sm-4">
                               <div class="lap1_main">
                                  <h4 class="laptop_text">I 12 PRO MAX</h4>
                                  <p class="price_text">Price  <span style="color: #262626;">LKR 175,000</span></p>
@@ -203,7 +202,7 @@
                                  <p>Width: 3.07 inches (78.1 mm),Height: 6.33 inches (160.8 mm),Depth: 0.29 inch (7.4 mm),Weight: 8.03 ounces (228 grams),HDR display,Wide color (P3)</p>
                                  <div class="btn_main">
                                     <div class="buy_bt"><a href="buy now.jsp">Buy Now</a></div>
-                                    <div class="seemore_bt"><a href="iphone.jsp">See More</a></div>
+                                    <div class="seemore_bt"><a href="#">Add to Cart</a></div>
                                  </div>
                               </div>
                            </div>
@@ -215,7 +214,7 @@
                                  <p>Width: 3.05 inches (77.6 mm),Height: 6.33 inches (160.7 mm),Depth: 0.31 inch (7.85 mm),Weight: 8.47 ounces (240 grams),ProMotion technology with adaptive refresh rates up to 120Hz,Fingerprint-resistant oleophobic coating,Support for display of multiple languages and characters simultaneously</p>
                                  <div class="btn_main">
                                     <div class="buy_bt"><a href="buy now.jsp">Buy Now</a></div>
-                                    <div class="seemore_bt"><a href="iphone.jsp">See More</a></div>
+                                    <div class="seemore_bt"><a href="#">Add to Cart</a></div>
                                  </div>
                               </div>
                            </div>
@@ -227,11 +226,9 @@
                                  <p>I15 PROMAX Unlocked android Phone 2023 Android 13 cell phone with Dynamic Island Titanium Design 8GB+512GB Mobile Phones 6.7“ HD Screen 108MP+48MP Camera 6800 mAh Dual SIM Smart phone,5G DUAL SIM CELL PHONE - I15 PROMAX supports 5G/4G/3G/2G cellular, much wider frequency bands,Get incredible framing flexibility with lenses</p>
                                  <div class="btn_main">
                                     <div class="buy_bt"><a href="buy now.jsp">Buy Now</a></div>
-                                    <div class="seemore_bt"><a href="iphone.jsp">See more</a></div>
+                                    <div class="seemore_bt"><a href="#">Add to Cart</a></div>
                                  </div>
                               </div>
-                           </div>
-                             </div>
                            </div>
                                                 
                              <!-- footer section start -->

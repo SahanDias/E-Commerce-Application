@@ -192,7 +192,7 @@
             <div class="carousel-inner">
                <div class="carousel-item active">
                   <div class="container">
-                     <h1 class="product_taital">LAPTOPS</h1>
+                     <h1 class="product_taital">HEAD PHONES</h1>
                      <div class="product_section_2">
                         <div class="row">
                            <div class="col-lg-4 col-sm-4">
@@ -203,7 +203,7 @@
                                  <p>Custom 50mm Drivers,Bluetooth 5.0 Connectivity,AAC, SBC Codecs,15 Hz to 28 kHz Frequency Response</p>
                                  <div class="btn_main">
                                     <div class="buy_bt"><a href="buy now.jsp">Buy Now</a></div>
-                                    <div class="seemore_bt"><a href="headphones.jsp">See More</a></div>
+                                    <div class="seemore_bt"><a href="headphones.jsp">Add to Cart</a></div>
                                  </div>
                               </div>
                            </div>
@@ -215,7 +215,7 @@
                                  <p>Up to 50-hour battery life,Quick charging,Crystal clear hands-free calling with built-in mic,Multipoint connection,Keep your music playing all day with a battery life that delivers up to 50 hours of power. USB Type-C quick charging gives up to 90 mins of play back from 3 minutes of charge</p>
                                  <div class="btn_main">
                                     <div class="buy_bt"><a href="buy now.jsp">Buy Now</a></div>
-                                    <div class="seemore_bt"><a href="headphones.jsp">See More</a></div>
+                                    <div class="seemore_bt"><a href="headphones.jsp">Add to Cart</a></div>
                                  </div>
                               </div>
                            </div>
@@ -227,7 +227,7 @@
                                  <P>Integrated noise canceling technology,80 hours of battery life,Lightweight for ultimate music mobility,Perfect for a life on the go</P>
                                  <div class="btn_main">
                                     <div class="buy_bt"><a href="buy now.jsp">Buy Now</a></div>
-                                    <div class="seemore_bt"><a href="headphones.jsp">See More</a></div>
+                                    <div class="seemore_bt"><a href="headphones.jsp">Add to Cart</a></div>
                                  </div>
                               </div>
                            </div>

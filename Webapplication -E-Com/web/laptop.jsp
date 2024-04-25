@@ -248,7 +248,7 @@
                               <div class="lap1_main">
                                  <h4 class="laptop_text">OMEN Gaming Laptop</h4>
                                  <p class="price_text">Price  <span style="color: #262626;">LKR 330,330</span></p>
-                                 <div class="laptop_img"><img src="images/.jpg"></div>
+                                 <div class="laptop_img"><img src="images/omen1.jpg"></div>
                                  <P>Apple M2 chip with 8‑core CPU, 8‑core GPU, 16‑core Neural Engine,8GB unified memory,30W USB-C Power Adapter</P>
                                  <div class="btn_main">
                                     <div class="buy_bt"><a href="buy now.jsp">Buy Now</a></div>
@@ -273,7 +273,7 @@
                               <div class="lap1_main">
                                  <h4 class="laptop_text">ASUS ZENBOOK PRO DUO</h4>
                                  <p class="price_text">Price  <span style="color: #262626;">LKR 250,000</span></p>
-                                 <div class="laptop_img"><img src="images/zenbook.jpg"></div>
+                                 <div class="laptop_img"><img src="images/asuszenbook.jpg"></div>
                                  <p>Windows 10 Home - ASUS recommends Windows 10 Pro for business, Free Upgrade to Windows 11¹,Up to 15.6" 4K/UHD OLED NanoEdge display</p>
                                  <div class="btn_main">
                                     <div class="buy_bt"><a href="buy now.jsp">Buy Now</a></div>

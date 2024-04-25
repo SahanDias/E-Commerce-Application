@@ -192,7 +192,7 @@
             <div class="carousel-inner">
                <div class="carousel-item active">
                   <div class="container">
-                     <h1 class="product_taital">camaras</h1>
+                     <h1 class="product_taital">Camaras</h1>
                      <div class="product_section_2">
                         <div class="row">
                              <div class="col-lg-4 col-sm-4">
