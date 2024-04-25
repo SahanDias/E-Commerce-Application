@@ -195,24 +195,49 @@
                      <h1 class="product_taital">camaras</h1>
                      <div class="product_section_2">
                         <div class="row">
-                           <div class="col-lg-4 col-sm-4">
+                             <div class="col-lg-4 col-sm-4">
                               <div class="lap1_main">
-                                  <h4 class="laptop_text">ROSE GOLD HP LAPTOP </h4>
-                                 <p class="price_text">Price  <span style="color: #262626;">LKR 204,596</span></p>
-                                 <div class="laptop_img"><img src="images/Rose Gold HP Laptop.jpg"></div>
-                                 <p>Rose Gold HP Laptop 15.6" HD AMD Quad Core Ryzen 5 256GB SSD 8GB RAM Pink New </p>                                               
+                                 <h4 class="laptop_text">CANON EOS R5</h4>
+                                 <p class="price_text">Price  <span style="color: #262626;">LKR 300,000</span></p>
+                                 <div class="laptop_img"><img src="images/canon 22.jpg"></div>
+                                 <p>Approx. 45MP full-frame CMOS sensor,Up to 8-stop In-Body Image Stabilizer X Optical Image Stabilizer,Up to 20 FPS + Animal Detection AF,8K DCI movie + 4K DCI 120 fps video recording capability,The EOS R5 is here with groundbreaking 8K resolution video recording</p>
                                  <div class="btn_main">
                                     <div class="buy_bt"><a href="buy now.jsp">Buy Now</a></div>
-                                    <div class="seemore_bt"><a href="seemore.jsp">Add To Cart</a></div>
+                                    <div class="seemore_bt"><a href="camaras.jsp">See More</a></div>
                                  </div>
                               </div>
                            </div>
+                            <div class="col-lg-4 col-sm-4">
+                              <div class="lap1_main">
+                                 <h4 class="laptop_text">CANON EOS R50</h4>
+                                 <p class="price_text">Price  <span style="color: #262626;">LKR 299,000</span></p>
+                                 <div class="laptop_img"><img src="images/canon EOS R50.jpg"></div>
+                                 <p>Bringing together the mobile versatility of the EOS R50 mirrorless camera with a lens, shotgun microphone, and tripod grip, the EOS R50 Content Creator Kit from Canon is a starter's bundle tailored for vloggers, videographers, and visionaries who are keen to record their world in high-quality detail</p>
+                                 <div class="btn_main">
+                                    <div class="buy_bt"><a href="buy now.jsp">Buy Now</a></div>
+                                    <div class="seemore_bt"><a href="camaras.jsp">See More</a></div>
+                                 </div>
+                              </div>
+                           </div>
+                              <div class="col-lg-4 col-sm-4">
+                              <div class="lap1_main">
+                                 <h4 class="laptop_text">CANON EOS RP</h4>
+                                 <p class="price_text">Price  <span style="color: #262626;">LKR 335,500</span></p>
+                                 <div class="laptop_img"><img src="images/canon EOS RP.jpg"></div>
+                                 <p>Impressively small despite having a large full-frame sensor, the Canon EOS RP offers flexible imaging capabilities along with a portable form factor. Featuring a high-resolution 26.2MP full-frame CMOS sensor along with a DIGIC 8 image processor</p>
+                                 <div class="btn_main">
+                                    <div class="buy_bt"><a href="buy now.jsp">Buy Now</a></div>
+                                    <div class="seemore_bt"><a href="camaras.jsp">See More</a></div>
+                                 </div>
+                              </div>
+                           </div>
+                           
                              <div class="col-lg-4 col-sm-4">
                               <div class="lap1_main">
-                                 <h4 class="laptop_text">HP SPECTRE *360</h4>
-                                 <p class="price_text">Price  <span style="color: #262626;">LKR 499,000</span></p>
-                                 <div class="laptop_img"><img src="images/HP Spectre x360.jpg"></div>
-                                 <p>Commercial Notebooks,Consumer Notebooks,Core i7 Laptops,Laptops & Desktops,Laptops &Tabs,Touch Laptops</p>
+                                 <h4 class="laptop_text">Sony FE 50mm f/1.2 GM Lens</h4>
+                                 <p class="price_text">Price  <span style="color: #262626;">LKR 515,500</span></p>
+                                 <div class="laptop_img"><img src="images/sonyfe lence.jpg"></div>
+                                 <p>-Mount Lens/Full-Frame Format,perture Range: f/1.2 to f/16,Three XA Elements,Nano AR II and Fluorine Coatings</p>
                                  <div class="btn_main">
                                     <div class="buy_bt"><a href="buy now.jsp">Buy Now</a></div>
                                     <div class="seemore_bt"><a href="#">Add To Cart</a></div>
@@ -221,10 +246,22 @@
                            </div>
                              <div class="col-lg-4 col-sm-4">
                               <div class="lap1_main">
-                                 <h4 class="laptop_text">HP SPECTRE FOLIO</h4>
-                                 <p class="price_text">Price  <span style="color: #262626;">LKR 210,000</span></p>
-                                 <div class="laptop_img"><img src="images/HP Spectre Folio.jpg"></div>
-                                 <p>Windows 10 Home 64,8th Generation Intel® Core™ i7 processor,Intel® UHD Graphics 615,8 GB memory; 256 GB SSD storage</p>
+                                 <h4 class="laptop_text">Godox AD600Pro Witstro All-In-One Outdoor Flash</h4>
+                                 <p class="price_text">Price  <span style="color: #262626;">LKR 199,000</span></p>
+                                 <div class="laptop_img"><img src="images/godox.jpg"></div>
+                                 <P>Built-In 2.4 GHz Wireless X System,Compatible with Most TTL Systems,600Ws, 1/256 to 1/1 Power Output</P>
+                                 <div class="btn_main">
+                                    <div class="buy_bt"><a href="buy now.jsp">Buy Now</a></div>
+                                    <div class="seemore_bt"><a href="#">Add To Cart</a></div>
+                                 </div>
+                              </div>
+                           </div>
+                             <div class="col-lg-4 col-sm-4">
+                              <div class="lap1_main">
+                                 <h4 class="laptop_text">GoPro HERO12 </h4>
+                                 <p class="price_text">Price  <span style="color: #262626;">LKR 116,500</span></p>
+                                 <div class="laptop_img"><img src="images/GoPro-12.jpg"></div>
+                                 <p>27MP with Improved Performance,HyperSmooth 6.0 Image Stabilization,5.3K60/4K120/2.7K240 Video, 27MP Photos</p>
                                  <div class="btn_main">
                                     <div class="buy_bt"><a href="buy now.jsp">Buy Now</a></div>
                                     <div class="seemore_bt"><a href="#">Add To Cart</a></div>
@@ -234,10 +271,10 @@
                            
                              <div class="col-lg-4 col-sm-4">
                               <div class="lap1_main">
-                                 <h4 class="laptop_text">lap 4</h4>
-                                 <p class="price_text">Price  <span style="color: #262626;">LKR 379,900</span></p>
-                                 <div class="laptop_img"><img src="images/macbook air pro.jpg"></div>
-                                 <p>Apple M2 chip with 8‑core CPU, 10‑core GPU, 16‑core Neural Engine,8GB unified memory,15.3-inch Liquid Retina display with True Tone,MagSafe 3 charging port,Backlit Magic Keyboard with Touch ID,1080p FaceTime HD camera</p>
+                                 <h4 class="laptop_text">DJI OSMO MOBILE SE</h4>
+                                 <p class="price_text">Price  <span style="color: #262626;">LKR 29,900</span></p>
+                                 <div class="laptop_img"><img src="images/dji osmo.jpg"></div>
+                                 <p>3-Axis Stabilization,Magnetic Design,Portable and Foldable,ActiveTrack 5.0</p>
                                  <div class="btn_main">
                                     <div class="buy_bt"><a href="buy now.jsp">Buy Now</a></div>
                                     <div class="seemore_bt"><a href="#">Add To Cart</a></div>
@@ -246,10 +283,10 @@
                            </div>
                              <div class="col-lg-4 col-sm-4">
                               <div class="lap1_main">
-                                 <h4 class="laptop_text">lap 5</h4>
-                                 <p class="price_text">Price  <span style="color: #262626;">LKR 339,900</span></p>
-                                 <div class="laptop_img"><img src="images/macbook air.jpg"></div>
-                                 <P>Apple M2 chip with 8‑core CPU, 8‑core GPU, 16‑core Neural Engine,8GB unified memory,30W USB-C Power Adapter</P>
+                                 <h4 class="laptop_text">DJI Mavic 3 Pro Fly More Combo (DJI RC)</h4>
+                                 <p class="price_text">Price  <span style="color: #262626;">LKR 939,500</span></p>
+                                 <div class="laptop_img"><img src="images/dji mavic.jpg"></div>
+                                 <p>3-Axis Gimbal with Tri-Camera System,20MP 5.1K Wide-Angle 4/3 CMOS Hasselblad,70mm 48MP 3x Zoom Medium Telephoto Lens</p>
                                  <div class="btn_main">
                                     <div class="buy_bt"><a href="buy now.jsp">Buy Now</a></div>
                                     <div class="seemore_bt"><a href="#">Add To Cart</a></div>
@@ -258,47 +295,10 @@
                            </div>
                              <div class="col-lg-4 col-sm-4">
                               <div class="lap1_main">
-                                 <h4 class="laptop_text">lap 6</h4>
-                                 <p class="price_text">Price  <span style="color: #262626;">LKR 1,189,000</span></p>
-                                 <div class="laptop_img"><img src="images/macbook pro.jpg"></div>
-                                 <p>The new M2 chip makes the 13‑inch MacBook Pro more capable than ever. The same compact design supports up to 20 hours of battery life1 and an active cooling system to sustain enhanced performance,MBP 16.2-inch / M3 Pro / 12C CPU / 18C GPU / 18GB / 512GB</p>
-                                 <div class="btn_main">
-                                    <div class="buy_bt"><a href="buy now.jsp">Buy Now</a></div>
-                                    <div class="seemore_bt"><a href="#">Add To Cart</a></div>
-                                 </div>
-                              </div>
-                           </div>
-                           
-                             <div class="col-lg-4 col-sm-4">
-                              <div class="lap1_main">
-                                 <h4 class="laptop_text">lap7</h4>
-                                 <p class="price_text">Price  <span style="color: #262626;">LKR 175,000</span></p>
-                                 <div class="laptop_img"><img src="images/i12 pro max.jpg"></div>
-                                 <p>Width: 3.07 inches (78.1 mm),Height: 6.33 inches (160.8 mm),Depth: 0.29 inch (7.4 mm),Weight: 8.03 ounces (228 grams),HDR display,Wide color (P3)</p>
-                                 <div class="btn_main">
-                                    <div class="buy_bt"><a href="buy now.jsp">Buy Now</a></div>
-                                    <div class="seemore_bt"><a href="#">Add To Cart</a></div>
-                                 </div>
-                              </div>
-                           </div>
-                             <div class="col-lg-4 col-sm-4">
-                              <div class="lap1_main">
-                                 <h4 class="laptop_text">lap 8</h4>
-                                 <p class="price_text">Price  <span style="color: #262626;">LKR 339,900</span></p>
-                                 <div class="laptop_img"><img src="images/i14 pro.jpg"></div>
-                                 <p>Width: 3.05 inches (77.6 mm),Height: 6.33 inches (160.7 mm),Depth: 0.31 inch (7.85 mm),Weight: 8.47 ounces (240 grams),ProMotion technology with adaptive refresh rates up to 120Hz,Fingerprint-resistant oleophobic coating,Support for display of multiple languages and characters simultaneously</p>
-                                 <div class="btn_main">
-                                    <div class="buy_bt"><a href="buy now.jsp">Buy Now</a></div>
-                                    <div class="seemore_bt"><a href="#">Add To Cart</a></div>
-                                 </div>
-                              </div>
-                           </div>
-                             <div class="col-lg-4 col-sm-4">
-                              <div class="lap1_main">
-                                 <h4 class="laptop_text">lap 9</h4>
-                                 <p class="price_text">Price  <span style="color: #262626;">LKR 474,900</span></p>
-                                 <div class="laptop_img"><img src="images/i15.jpg"></div>
-                                 <p>I15 PROMAX Unlocked android Phone 2023 Android 13 cell phone with Dynamic Island Titanium Design 8GB+512GB Mobile Phones 6.7“ HD Screen 108MP+48MP Camera 6800 mAh Dual SIM Smart phone,5G DUAL SIM CELL PHONE - I15 PROMAX supports 5G/4G/3G/2G cellular, much wider frequency bands,Get incredible framing flexibility with lenses</p>
+                                 <h4 class="laptop_text">GoPro HERO12 Black Special Bundle</h4>
+                                 <p class="price_text">Price  <span style="color: #262626;">LKR 139,900</span></p>
+                                 <div class="laptop_img"><img src="images/gopro hero.jpg"></div>
+                                 <p>HERO12 Black Action Camera,Floating Handgrip, Head Strap Mount,Additional Enduro Battery,Carry Case</p>
                                  <div class="btn_main">
                                     <div class="buy_bt"><a href="buy now.jsp">Buy Now</a></div>
                                     <div class="seemore_bt"><a href="#">Add To Cart</a></div>

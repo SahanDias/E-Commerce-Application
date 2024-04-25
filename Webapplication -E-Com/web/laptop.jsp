@@ -197,7 +197,7 @@
                         <div class="row">
                            <div class="col-lg-4 col-sm-4">
                               <div class="lap1_main">
-                                  <h4 class="laptop_text">ROSE GOLD HP LAPTOP </h4>
+                                  <h4 class="laptop_text">ROSE GOLD HP LAPTOP</h4>
                                  <p class="price_text">Price  <span style="color: #262626;">LKR 204,596</span></p>
                                  <div class="laptop_img"><img src="images/Rose Gold HP Laptop.jpg"></div>
                                  <p>Rose Gold HP Laptop 15.6" HD AMD Quad Core Ryzen 5 256GB SSD 8GB RAM Pink New </p>                                               
@@ -234,10 +234,10 @@
                            
                              <div class="col-lg-4 col-sm-4">
                               <div class="lap1_main">
-                                 <h4 class="laptop_text">lap 4</h4>
-                                 <p class="price_text">Price  <span style="color: #262626;">LKR 379,900</span></p>
-                                 <div class="laptop_img"><img src="images/macbook air pro.jpg"></div>
-                                 <p>Apple M2 chip with 8‑core CPU, 10‑core GPU, 16‑core Neural Engine,8GB unified memory,15.3-inch Liquid Retina display with True Tone,MagSafe 3 charging port,Backlit Magic Keyboard with Touch ID,1080p FaceTime HD camera</p>
+                                 <h4 class="laptop_text">HP Envy laptop</h4>
+                                 <p class="price_text">Price  <span style="color: #262626;">LKR 258,300</span></p>
+                                 <div class="laptop_img"><img src="images/hp envy.png"></div>
+                                 <p>Windows 11 HomeIntel® Core™ i7-13700H (up to 5.0 GHz, 24 MB L3 cache, 14 cores, 20 threads) + Intel® Iris® Xe Graphics,16 GB DDR4-3200 SDRAM (2 x 8 GB),512 GB PCIe® NVMe™ M.2 SSD </p>
                                  <div class="btn_main">
                                     <div class="buy_bt"><a href="buy now.jsp">Buy Now</a></div>
                                     <div class="seemore_bt"><a href="#">Add To Cart</a></div>
@@ -246,9 +246,9 @@
                            </div>
                              <div class="col-lg-4 col-sm-4">
                               <div class="lap1_main">
-                                 <h4 class="laptop_text">lap 5</h4>
-                                 <p class="price_text">Price  <span style="color: #262626;">LKR 339,900</span></p>
-                                 <div class="laptop_img"><img src="images/macbook air.jpg"></div>
+                                 <h4 class="laptop_text">OMEN Gaming Laptop</h4>
+                                 <p class="price_text">Price  <span style="color: #262626;">LKR 330,330</span></p>
+                                 <div class="laptop_img"><img src="images/.jpg"></div>
                                  <P>Apple M2 chip with 8‑core CPU, 8‑core GPU, 16‑core Neural Engine,8GB unified memory,30W USB-C Power Adapter</P>
                                  <div class="btn_main">
                                     <div class="buy_bt"><a href="buy now.jsp">Buy Now</a></div>
@@ -258,10 +258,10 @@
                            </div>
                              <div class="col-lg-4 col-sm-4">
                               <div class="lap1_main">
-                                 <h4 class="laptop_text">lap 6</h4>
-                                 <p class="price_text">Price  <span style="color: #262626;">LKR 1,189,000</span></p>
-                                 <div class="laptop_img"><img src="images/macbook pro.jpg"></div>
-                                 <p>The new M2 chip makes the 13‑inch MacBook Pro more capable than ever. The same compact design supports up to 20 hours of battery life1 and an active cooling system to sustain enhanced performance,MBP 16.2-inch / M3 Pro / 12C CPU / 18C GPU / 18GB / 512GB</p>
+                                 <h4 class="laptop_text">HP ZBook </h4>
+                                 <p class="price_text">Price  <span style="color: #262626;">LKR 471,175</span></p>
+                                 <div class="laptop_img"><img src="images/hp zbook.jpg"></div>
+                                 <p>HP ZBook Fury 16 G10 Intel Core i7-13700HX 16GB RAM 512GB SSD NVIDIA RTX A1000 16 inch WUXGA IPS Windows 11 Pro Laptop</p>
                                  <div class="btn_main">
                                     <div class="buy_bt"><a href="buy now.jsp">Buy Now</a></div>
                                     <div class="seemore_bt"><a href="#">Add To Cart</a></div>
@@ -271,10 +271,10 @@
                            
                              <div class="col-lg-4 col-sm-4">
                               <div class="lap1_main">
-                                 <h4 class="laptop_text">lap7</h4>
-                                 <p class="price_text">Price  <span style="color: #262626;">LKR 175,000</span></p>
-                                 <div class="laptop_img"><img src="images/i12 pro max.jpg"></div>
-                                 <p>Width: 3.07 inches (78.1 mm),Height: 6.33 inches (160.8 mm),Depth: 0.29 inch (7.4 mm),Weight: 8.03 ounces (228 grams),HDR display,Wide color (P3)</p>
+                                 <h4 class="laptop_text">ASUS ZENBOOK PRO DUO</h4>
+                                 <p class="price_text">Price  <span style="color: #262626;">LKR 250,000</span></p>
+                                 <div class="laptop_img"><img src="images/asus zenbook.jpg"></div>
+                                 <p>Windows 10 Home - ASUS recommends Windows 10 Pro for business, Free Upgrade to Windows 11¹,Up to 15.6" 4K/UHD OLED NanoEdge display</p>
                                  <div class="btn_main">
                                     <div class="buy_bt"><a href="buy now.jsp">Buy Now</a></div>
                                     <div class="seemore_bt"><a href="#">Add To Cart</a></div>
@@ -283,10 +283,10 @@
                            </div>
                              <div class="col-lg-4 col-sm-4">
                               <div class="lap1_main">
-                                 <h4 class="laptop_text">lap 8</h4>
-                                 <p class="price_text">Price  <span style="color: #262626;">LKR 339,900</span></p>
-                                 <div class="laptop_img"><img src="images/i14 pro.jpg"></div>
-                                 <p>Width: 3.05 inches (77.6 mm),Height: 6.33 inches (160.7 mm),Depth: 0.31 inch (7.85 mm),Weight: 8.47 ounces (240 grams),ProMotion technology with adaptive refresh rates up to 120Hz,Fingerprint-resistant oleophobic coating,Support for display of multiple languages and characters simultaneously</p>
+                                 <h4 class="laptop_text">ASUS VIVO BOOK 15</h4>
+                                 <p class="price_text">Price  <span style="color: #262626;">LKR 230,900</span></p>
+                                 <div class="laptop_img"><img src="images/vivo.jpg"></div>
+                                 <p>Windows 11 Home - ASUS recommends Windows 11 Pro for business,Intel® Core™ i3-1220P Processor,Intel® UHD Graphics</p>
                                  <div class="btn_main">
                                     <div class="buy_bt"><a href="buy now.jsp">Buy Now</a></div>
                                     <div class="seemore_bt"><a href="#">Add To Cart</a></div>
@@ -295,10 +295,10 @@
                            </div>
                              <div class="col-lg-4 col-sm-4">
                               <div class="lap1_main">
-                                 <h4 class="laptop_text">lap 9</h4>
+                                 <h4 class="laptop_text">LENOVO NOTEBOOK V14</h4>
                                  <p class="price_text">Price  <span style="color: #262626;">LKR 474,900</span></p>
-                                 <div class="laptop_img"><img src="images/i15.jpg"></div>
-                                 <p>I15 PROMAX Unlocked android Phone 2023 Android 13 cell phone with Dynamic Island Titanium Design 8GB+512GB Mobile Phones 6.7“ HD Screen 108MP+48MP Camera 6800 mAh Dual SIM Smart phone,5G DUAL SIM CELL PHONE - I15 PROMAX supports 5G/4G/3G/2G cellular, much wider frequency bands,Get incredible framing flexibility with lenses</p>
+                                 <div class="laptop_img"><img src="images/lenovo.jpg"></div>
+                                 <p>Powerful AMD Ryzen™ processors with AMD Radeon™ graphics,14″ FHD (1920 x 1080) display with low-blue light to reduce eye strain</p>
                                  <div class="btn_main">
                                     <div class="buy_bt"><a href="buy now.jsp">Buy Now</a></div>
                                     <div class="seemore_bt"><a href="#">Add To Cart</a></div>

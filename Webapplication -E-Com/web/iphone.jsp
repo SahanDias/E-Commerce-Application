@@ -1,6 +1,6 @@
 <%-- 
-    Document   : macseries
-    Created on : Apr 24, 2024, 11:13:29 PM
+    Document   : iphone
+    Created on : Apr 25, 2024, 11:11:30 PM
     Author     : Hashini
 --%>
 
@@ -12,8 +12,7 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <!DOCTYPE html>
-<html lang="en">
+     <html lang="en">
    <head>
       <!-- basic -->
       <meta charset="utf-8">
@@ -192,72 +191,49 @@
             <div class="carousel-inner">
                <div class="carousel-item active">
                   <div class="container">
-                     <h1 class="product_taital">mac series</h1>
+                     <h1 class="product_taital">LAPTOPS</h1>
                      <div class="product_section_2">
                         <div class="row">
                            <div class="col-lg-4 col-sm-4">
+                            <div class="col-lg-4 col-sm-4">
                               <div class="lap1_main">
-                                  <h4 class="laptop_text">MAC BOOK PRO 14</h4>
-                                 <p class="price_text">Price  <span style="color: #262626;">LKR 510,000</span></p>
-                                 <div class="laptop_img"><img src="images/macbookpro14.jpg"></div>
-                                 <p>Apple M3 chip with 8-core CPU, 10-core GPU, 16-core Neural Engine,8GB unified memory,512GB SSD storage</p>                                               
+                                 <h4 class="laptop_text">I 12 PRO MAX</h4>
+                                 <p class="price_text">Price  <span style="color: #262626;">LKR 175,000</span></p>
+                                 <div class="laptop_img"><img src="images/i12 pro max.jpg"></div>
+                                 <p>Width: 3.07 inches (78.1 mm),Height: 6.33 inches (160.8 mm),Depth: 0.29 inch (7.4 mm),Weight: 8.03 ounces (228 grams),HDR display,Wide color (P3)</p>
                                  <div class="btn_main">
                                     <div class="buy_bt"><a href="buy now.jsp">Buy Now</a></div>
-                                    <div class="seemore_bt"><a href="seemore.jsp">Add To Cart</a></div>
+                                    <div class="seemore_bt"><a href="iphone.jsp">See More</a></div>
                                  </div>
                               </div>
                            </div>
                              <div class="col-lg-4 col-sm-4">
                               <div class="lap1_main">
-                                 <h4 class="laptop_text">APPLE iMac</h4>
-                                 <p class="price_text">Price  <span style="color: #262626;">LKR 499,000</span></p>
-                                 <div class="laptop_img"><img src="images/imac.jpg"></div>
-                                 <p>Apple A Grade Desktop Computer iMac 21.5-inch 2.3GHZ Dual Core i5 (Mid 2017) MMQA2LL/A 8 GB 256 GB SSD 1920 x 1080 Display</p>
-                                 <div class="btn_main">
-                                    <div class="buy_bt"><a href="buy now.jsp">Buy Now</a></div>
-                                    <div class="seemore_bt"><a href="#">Add To Cart</a></div>
-                                 </div>
-                              </div>
-                           </div>
-                             <div class="col-lg-4 col-sm-4">
-                              <div class="lap1_main">
-                                 <h4 class="laptop_text">MACBOOK AIR 15" M2</h4>
-                                 <p class="price_text">Price  <span style="color: #262626;">LKR 379,900</span></p>
-                                 <div class="laptop_img"><img src="images/macbook air pro.jpg"></div>
-                                 <p>Apple M2 chip with 8‑core CPU, 10‑core GPU, 16‑core Neural Engine,8GB unified memory,15.3-inch Liquid Retina display with True Tone,MagSafe 3 charging port,Backlit Magic Keyboard with Touch ID,1080p FaceTime HD camera</p>
-                                 <div class="btn_main">
-                                    <div class="buy_bt"><a href="buy now.jsp">Buy Now</a></div>
-                                    <div class="seemore_bt"><a href="#">Add To Cart</a></div>
-                                 </div>
-                              </div>
-                           </div>
-                             <div class="col-lg-4 col-sm-4">
-                              <div class="lap1_main">
-                                 <h4 class="laptop_text">MACBOOK AIR M2</h4>
+                                 <h4 class="laptop_text">I 14 PRO</h4>
                                  <p class="price_text">Price  <span style="color: #262626;">LKR 339,900</span></p>
-                                 <div class="laptop_img"><img src="images/macbook air.jpg"></div>
-                                 <P>Apple M2 chip with 8‑core CPU, 8‑core GPU, 16‑core Neural Engine,8GB unified memory,30W USB-C Power Adapter</P>
+                                 <div class="laptop_img"><img src="images/i14 pro.jpg"></div>
+                                 <p>Width: 3.05 inches (77.6 mm),Height: 6.33 inches (160.7 mm),Depth: 0.31 inch (7.85 mm),Weight: 8.47 ounces (240 grams),ProMotion technology with adaptive refresh rates up to 120Hz,Fingerprint-resistant oleophobic coating,Support for display of multiple languages and characters simultaneously</p>
                                  <div class="btn_main">
                                     <div class="buy_bt"><a href="buy now.jsp">Buy Now</a></div>
-                                    <div class="seemore_bt"><a href="#">Add To Cart</a></div>
+                                    <div class="seemore_bt"><a href="iphone.jsp">See More</a></div>
                                  </div>
                               </div>
                            </div>
                              <div class="col-lg-4 col-sm-4">
                               <div class="lap1_main">
-                                 <h4 class="laptop_text">MACBOOK PRO 13"</h4>
-                                 <p class="price_text">Price  <span style="color: #262626;">LKR 1,189,000</span></p>
-                                 <div class="laptop_img"><img src="images/macbook pro.jpg"></div>
-                                 <p>The new M2 chip makes the 13‑inch MacBook Pro more capable than ever. The same compact design supports up to 20 hours of battery life,MBP 16.2-inch / M3 Pro / 12C CPU / 18C GPU / 18GB / 512GB</p>
+                                 <h4 class="laptop_text">I 15 </h4>
+                                 <p class="price_text">Price  <span style="color: #262626;">LKR 474,900</span></p>
+                                 <div class="laptop_img"><img src="images/i15.jpg"></div>
+                                 <p>I15 PROMAX Unlocked android Phone 2023 Android 13 cell phone with Dynamic Island Titanium Design 8GB+512GB Mobile Phones 6.7“ HD Screen 108MP+48MP Camera 6800 mAh Dual SIM Smart phone,5G DUAL SIM CELL PHONE - I15 PROMAX supports 5G/4G/3G/2G cellular, much wider frequency bands,Get incredible framing flexibility with lenses</p>
                                  <div class="btn_main">
                                     <div class="buy_bt"><a href="buy now.jsp">Buy Now</a></div>
-                                    <div class="seemore_bt"><a href="#">Add To Cart</a></div>
+                                    <div class="seemore_bt"><a href="iphone.jsp">See more</a></div>
                                  </div>
                               </div>
                            </div>
-                           
-                            
-                                 
+                             </div>
+                           </div>
+                                                
                              <!-- footer section start -->
       <div class="footer_section layout_padding">
          <div class="container">
