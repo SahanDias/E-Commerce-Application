@@ -22,7 +22,7 @@ import javax.servlet.http.HttpServletResponse;
  *
  * @author User
  */
-@WebServlet(name = "Customerservlet", urlPatterns = {"/Customerservlet"})
+@WebServlet("/Customerservlet")
 public class Customerservlet extends HttpServlet {
     
     private CustomerDAO customerDAO;
@@ -46,6 +46,11 @@ public class Customerservlet extends HttpServlet {
             
             switch(curi){
                 
+                case "newc":
+                    System.out.println("newform customer");
+                    shownewform(req, res);
+                    break;
+                
                 case "insertc":
                     System.out.println("insert customer");
                     {
@@ -56,12 +61,7 @@ public class Customerservlet extends HttpServlet {
                         }
                     }
                     break;
-                    
-                case "newc":
-                    System.out.println("newform customer");
-                    shownewform(req, res);
-                    break;
-                    
+                       
                 case "deletec":
                     System.out.println("delete customer");
                     {
@@ -134,7 +134,7 @@ public class Customerservlet extends HttpServlet {
             Customer newcustomer = new Customer(name,email,address,mobile);
             customerDAO.insertCustomer(newcustomer);
             //add customer table file path
-            res.sendRedirect("customer table");
+            res.sendRedirect("list");
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -148,7 +148,7 @@ public class Customerservlet extends HttpServlet {
             int id = Integer.parseInt(req.getParameter("id"));
             customerDAO.deleteCustomer(id);
             //add customer table file path
-            res.sendRedirect("customer table");
+            res.sendRedirect("list");
             
         } catch (Exception e) {
             e.printStackTrace();
@@ -162,7 +162,7 @@ public class Customerservlet extends HttpServlet {
             int id = Integer.parseInt(req.getParameter("id"));
             Customer existcustomer = customerDAO.selectCustomer(id);
             //add  customer update jsp page path
-            RequestDispatcher rd = req.getRequestDispatcher("/update.jsp");
+            RequestDispatcher rd = req.getRequestDispatcher("/customerupdateform.jsp");
             //<c: jstl value
             req.setAttribute("customer", existcustomer);
             rd.forward(req, res);
@@ -184,7 +184,7 @@ public class Customerservlet extends HttpServlet {
             Customer updatecust = new Customer(name,email,address,mobile);
             customerDAO.updateCustomer(updatecust);
             //add customer table jsp file path
-            res.sendRedirect("/table.jsp");
+            res.sendRedirect("list");
             
         } catch (Exception e) {
             e.printStackTrace();
@@ -197,9 +197,9 @@ public class Customerservlet extends HttpServlet {
         try {
             List<Customer> listcustomer = customerDAO.selectallCustomers();
             //add customer table file path
-            RequestDispatcher rd = req.getRequestDispatcher("/customer table.jsp");
+            RequestDispatcher rd = req.getRequestDispatcher("/customerlist.jsp");
             //<c: jstl value
-            req.setAttribute("customer",listcustomer);
+            req.setAttribute("customerlist",listcustomer);
             rd.forward(req, res);
             
         } catch (Exception e) {
