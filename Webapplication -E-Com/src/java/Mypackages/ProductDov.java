@@ -18,16 +18,15 @@ public class ProductDov {
     private String username="root";
     private String pwd="";
     
-    private static final String INSERT_LAPTOPS_SQL="INSERT INTO laptops(name,price,image,description) VALUES(?,?,?,?)";
-    private static final String INSERT_PHONES_SQL="INSERT INTO phones(name,price,image,description) VALUES(?,?,?,?)";
-    private static final String SELECT_ALL_PHONES="select * from phones";
-    private static final String SELECT_ALL_LAPTOPS="select * from laptops";
-    private static final String UPDATE_PHONES_SQL="update phones set name=?,price=?,image=?,description=?,whare id=?";
-    private static final String UPDATE_LAPTOPS_SQL="update laptops set name=?,price=?,image=?,description=?,whare id=?";
-    private static final String SELECT_PHONE_BY_ID="select * from phones where id=?;";
-    private static final String SELECT_LAPTOP_BY_ID="select * from laptops where id=?;";
-    private static final String DELETE_PHONE_SQL ="delete * from_phones wahere id=?";
-    private static final String DELETE_LAPTOP_SQL="delete * from where id=?";
+    private static final String INSERT_products_SQL="INSERT INTO products(name,catagory,price,cart image,sub images,description) VALUES(?,?,?,?,?,?)";
+    private static final String SELECT_ALL_CAMERAS = "SELECT * FROM products WHERE category = 'camera'";
+    private static final String SELECT_ALL_LAPTOPS = "SELECT * FROM products WHERE category = 'Laptop'";
+    private static final String SELECT_ALL_PHONES = "SELECT * FROM products WHERE category = 'phone'";
+    private static final String UPDATE_PRODUCTS_SQL = "UPDATE products SET name=?, price=?, image=?, description=? WHERE id=?";
+    private static final String SELECT_PRODUCT_BY_ID = "SELECT * FROM products WHERE id=?";
+    private static final String DELETE_PRODUCT_SQL = "DELETE FROM products WHERE id=?";
+
+  
     
     protected Connection getConnection(){
         Connection con=null;
