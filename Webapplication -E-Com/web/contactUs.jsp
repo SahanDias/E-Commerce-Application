@@ -1,7 +1,7 @@
 <%-- 
     Document   : contactUs
     Created on : Apr 25, 2024, 3:51:51 PM
-    Author     : user
+    Author     : fazla fiyas
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -78,10 +78,22 @@
         <script src="js/jquery-3.0.0.min.js"></script>
         <script src="js/plugin.js"></script>
         
-        <!-- sidebar -->
+        <!-- side bar -->
         <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
         <script src="js/custom.js"></script>
         
-        
+        <!-- java script --> 
+        <script src="js/owl.carousel.js"></script>
+        <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+        <script src="https://unpkg.com/gijgo@1.9.13/js/gijgo.min.js" type="text/javascript"></script>
+        <script>
+            function openNav(){
+                document.getElementById("mySidenav").style.width = "100%";
+            }
+            
+            function closeNav(){
+                document.getElementById("mySidenav").style.width = "0";
+            }
+        </script> 
     </body>
 </html>
