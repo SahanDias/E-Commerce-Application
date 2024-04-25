@@ -1,6 +1,6 @@
 <%-- 
-    Document   : headphones
-    Created on : Apr 24, 2024, 11:23:15 PM
+    Document   : iphone
+    Created on : Apr 25, 2024, 11:11:30 PM
     Author     : Hashini
 --%>
 
@@ -12,8 +12,7 @@
         <title>JSP Page</title>
     </head>
     <body>
-         <!DOCTYPE html>
-<html lang="en">
+     <html lang="en">
    <head>
       <!-- basic -->
       <meta charset="utf-8">
@@ -192,46 +191,46 @@
             <div class="carousel-inner">
                <div class="carousel-item active">
                   <div class="container">
-                     <h1 class="product_taital">HEAD PHONES</h1>
-                     <div class="product_section_2">
-                        <div class="row">
-                           <div class="col-lg-4 col-sm-4">
+                 <h1 class="product_taital">I PHONE SERIES</h1>
+                 <div class="product_section_2"> 
+                      <div class="row">
+                             <div class="col-lg-4 col-sm-4">
                               <div class="lap1_main">
-                                 <h4 class="laptop_text">AKG ARCHIVES</h4>
-                                 <p class="price_text">Price  <span style="color: #262626;">LKR 54,560</span></p>
-                                 <div class="laptop_img"><img src="images/AKG Archives.jpg"></div>
-                                 <p>Custom 50mm Drivers,Bluetooth 5.0 Connectivity,AAC, SBC Codecs,15 Hz to 28 kHz Frequency Response</p>
+                                 <h4 class="laptop_text">I 12 PRO MAX</h4>
+                                 <p class="price_text">Price  <span style="color: #262626;">LKR 175,000</span></p>
+                                 <div class="laptop_img"><img src="images/i12 pro max.jpg"></div>
+                                 <p>Width: 3.07 inches (78.1 mm),Height: 6.33 inches (160.8 mm),Depth: 0.29 inch (7.4 mm),Weight: 8.03 ounces (228 grams),HDR display,Wide color (P3)</p>
                                  <div class="btn_main">
                                     <div class="buy_bt"><a href="buy now.jsp">Buy Now</a></div>
-                                    <div class="seemore_bt"><a href="headphones.jsp">Add to Cart</a></div>
+                                    <div class="seemore_bt"><a href="#">Add to Cart</a></div>
                                  </div>
                               </div>
                            </div>
                              <div class="col-lg-4 col-sm-4">
                               <div class="lap1_main">
-                                 <h4 class="laptop_text">SONY WH-CH520</h4>
-                                 <p class="price_text">Price  <span style="color: #262626;">LKR 14,999</span></p>
-                                 <div class="laptop_img"><img src="images/sony WH-CH520.jpg"></div>
-                                 <p>Up to 50-hour battery life,Quick charging,Crystal clear hands-free calling with built-in mic,Multipoint connection,Keep your music playing all day with a battery life that delivers up to 50 hours of power. USB Type-C quick charging gives up to 90 mins of play back from 3 minutes of charge</p>
+                                 <h4 class="laptop_text">I 14 PRO</h4>
+                                 <p class="price_text">Price  <span style="color: #262626;">LKR 339,900</span></p>
+                                 <div class="laptop_img"><img src="images/i14 pro.jpg"></div>
+                                 <p>Width: 3.05 inches (77.6 mm),Height: 6.33 inches (160.7 mm),Depth: 0.31 inch (7.85 mm),Weight: 8.47 ounces (240 grams),ProMotion technology with adaptive refresh rates up to 120Hz,Fingerprint-resistant oleophobic coating,Support for display of multiple languages and characters simultaneously</p>
                                  <div class="btn_main">
                                     <div class="buy_bt"><a href="buy now.jsp">Buy Now</a></div>
-                                    <div class="seemore_bt"><a href="headphones.jsp">Add to Cart</a></div>
+                                    <div class="seemore_bt"><a href="#">Add to Cart</a></div>
                                  </div>
                               </div>
                            </div>
-                            <div class="col-lg-4 col-sm-4">
+                             <div class="col-lg-4 col-sm-4">
                               <div class="lap1_main">
-                                 <h4 class="laptop_text">MDR-ZX110NC NOISE CANCELLING ON-EAR HEADPHONES</h4>
-                                 <p class="price_text">Price  <span style="color: #262626;">LKR 10,500</span></p>
-                                 <div class="laptop_img"><img src="images/sony wirless headphone.jpg"></div>
-                                 <P>Integrated noise canceling technology,80 hours of battery life,Lightweight for ultimate music mobility,Perfect for a life on the go</P>
+                                 <h4 class="laptop_text">I 15 </h4>
+                                 <p class="price_text">Price  <span style="color: #262626;">LKR 474,900</span></p>
+                                 <div class="laptop_img"><img src="images/i15.jpg"></div>
+                                 <p>I15 PROMAX Unlocked android Phone 2023 Android 13 cell phone with Dynamic Island Titanium Design 8GB+512GB Mobile Phones 6.7“ HD Screen 108MP+48MP Camera 6800 mAh Dual SIM Smart phone,5G DUAL SIM CELL PHONE - I15 PROMAX supports 5G/4G/3G/2G cellular, much wider frequency bands,Get incredible framing flexibility with lenses</p>
                                  <div class="btn_main">
                                     <div class="buy_bt"><a href="buy now.jsp">Buy Now</a></div>
-                                    <div class="seemore_bt"><a href="headphones.jsp">Add to Cart</a></div>
+                                    <div class="seemore_bt"><a href="#">Add to Cart</a></div>
                                  </div>
                               </div>
                            </div>
-                                           
+                                                
                              <!-- footer section start -->
       <div class="footer_section layout_padding">
          <div class="container">
