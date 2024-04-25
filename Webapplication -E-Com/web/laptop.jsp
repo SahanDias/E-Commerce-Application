@@ -236,7 +236,7 @@
                               <div class="lap1_main">
                                  <h4 class="laptop_text">HP Envy laptop</h4>
                                  <p class="price_text">Price  <span style="color: #262626;">LKR 258,300</span></p>
-                                 <div class="laptop_img"><img src="images/hp envy.png"></div>
+                                 <div class="laptop_img"><img src="images/hpenvy.png"></div>
                                  <p>Windows 11 HomeIntel® Core™ i7-13700H (up to 5.0 GHz, 24 MB L3 cache, 14 cores, 20 threads) + Intel® Iris® Xe Graphics,16 GB DDR4-3200 SDRAM (2 x 8 GB),512 GB PCIe® NVMe™ M.2 SSD </p>
                                  <div class="btn_main">
                                     <div class="buy_bt"><a href="buy now.jsp">Buy Now</a></div>
@@ -260,7 +260,7 @@
                               <div class="lap1_main">
                                  <h4 class="laptop_text">HP ZBook </h4>
                                  <p class="price_text">Price  <span style="color: #262626;">LKR 471,175</span></p>
-                                 <div class="laptop_img"><img src="images/hp zbook.jpg"></div>
+                                 <div class="laptop_img"><img src="images/hpzbook.jpg"></div>
                                  <p>HP ZBook Fury 16 G10 Intel Core i7-13700HX 16GB RAM 512GB SSD NVIDIA RTX A1000 16 inch WUXGA IPS Windows 11 Pro Laptop</p>
                                  <div class="btn_main">
                                     <div class="buy_bt"><a href="buy now.jsp">Buy Now</a></div>
@@ -273,7 +273,7 @@
                               <div class="lap1_main">
                                  <h4 class="laptop_text">ASUS ZENBOOK PRO DUO</h4>
                                  <p class="price_text">Price  <span style="color: #262626;">LKR 250,000</span></p>
-                                 <div class="laptop_img"><img src="images/asus zenbook.jpg"></div>
+                                 <div class="laptop_img"><img src="images/zenbook.jpg"></div>
                                  <p>Windows 10 Home - ASUS recommends Windows 10 Pro for business, Free Upgrade to Windows 11¹,Up to 15.6" 4K/UHD OLED NanoEdge display</p>
                                  <div class="btn_main">
                                     <div class="buy_bt"><a href="buy now.jsp">Buy Now</a></div>
@@ -285,7 +285,7 @@
                               <div class="lap1_main">
                                  <h4 class="laptop_text">ASUS VIVO BOOK 15</h4>
                                  <p class="price_text">Price  <span style="color: #262626;">LKR 230,900</span></p>
-                                 <div class="laptop_img"><img src="images/vivo.jpg"></div>
+                                 <div class="laptop_img"><img src="images/vivobook.jpg"></div>
                                  <p>Windows 11 Home - ASUS recommends Windows 11 Pro for business,Intel® Core™ i3-1220P Processor,Intel® UHD Graphics</p>
                                  <div class="btn_main">
                                     <div class="buy_bt"><a href="buy now.jsp">Buy Now</a></div>
@@ -297,7 +297,7 @@
                               <div class="lap1_main">
                                  <h4 class="laptop_text">LENOVO NOTEBOOK V14</h4>
                                  <p class="price_text">Price  <span style="color: #262626;">LKR 474,900</span></p>
-                                 <div class="laptop_img"><img src="images/lenovo.jpg"></div>
+                                 <div class="laptop_img"><img src="images/lenovo1.jpg"></div>
                                  <p>Powerful AMD Ryzen™ processors with AMD Radeon™ graphics,14″ FHD (1920 x 1080) display with low-blue light to reduce eye strain</p>
                                  <div class="btn_main">
                                     <div class="buy_bt"><a href="buy now.jsp">Buy Now</a></div>
