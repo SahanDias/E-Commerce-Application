@@ -42,5 +42,31 @@
       </div>
     </div>
   </div>
+    
+      <script>
+    document.getElementById('check').addEventListener('change', function() {
+      var loginForm = document.querySelector('.form.login');
+      var registrationForm = document.querySelector('.form.registration');
+      if(this.checked) {
+        loginForm.style.display = 'none';
+        registrationForm.style.display = 'block';
+      } else {
+        loginForm.style.display = 'block';
+        registrationForm.style.display = 'none';
+      }
+    });
+
+    function submitLoginForm() {
+      // Implement your login form submission logic here
+      console.log('Login form submitted');
+      // Validate inputs or send data to server
+    }
+
+    function submitSignupForm() {
+      // Implement your signup form submission logic here
+      console.log('Signup form submitted');
+      // Validate inputs or send data to server
+    }
+  </script>
 </body>
 </html>
