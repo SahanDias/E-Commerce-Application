@@ -11,10 +11,10 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
-  <link rel="icon" type="image/png" href="assets/img/favicon.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="assets/img/logo.png">
+  <link rel="icon" type="image/png" href="assets/img/logo.png">
   <title>
-    Material Dashboard 2 by Creative Tim
+    Elec-Zone Dashboard
   </title>
   <!--     Fonts and icons     -->
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900|Roboto+Slab:400,700" />
@@ -76,14 +76,7 @@
             <span class="nav-link-text ms-1">Virtual Reality</span>
           </a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link text-white " href="../pages/rtl.html">
-            <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
-              <i class="material-icons opacity-10">format_textdirection_r_to_l</i>
-            </div>
-            <span class="nav-link-text ms-1">RTL</span>
-          </a>
-        </li>
+        
         <li class="nav-item">
           <a class="nav-link text-white " href="../pages/notifications.html">
             <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
@@ -104,7 +97,7 @@
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white " href="../pages/sign-in.html">
+          <a class="nav-link text-white " href="signin.jsp">
             <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
               <i class="material-icons opacity-10">login</i>
             </div>
@@ -112,7 +105,7 @@
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white " href="../pages/sign-up.html">
+          <a class="nav-link text-white " href="signup.jsp">
             <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
               <i class="material-icons opacity-10">assignment</i>
             </div>
@@ -123,8 +116,8 @@
     </div>
     <div class="sidenav-footer position-absolute w-100 bottom-0 ">
       <div class="mx-3">
-        <a class="btn btn-outline-primary mt-4 w-100" href="https://www.creative-tim.com/learning-lab/bootstrap/overview/material-dashboard?ref=sidebarfree" type="button">Documentation</a>
-        <a class="btn bg-gradient-primary w-100" href="https://www.creative-tim.com/product/material-dashboard-pro?ref=sidebarfree" type="button">Upgrade to pro</a>
+        <a class="btn btn-outline-primary mt-4 w-100" href="#" type="button">Sample Button</a>
+        <a class="btn bg-gradient-primary w-100" href="#" type="button">Sample Button</a>
       </div>
     </div>
   </aside>
@@ -235,7 +228,7 @@
               </ul>
             </li>
             <li class="nav-item d-flex align-items-center">
-              <a href="../pages/sign-in.html" class="nav-link text-body font-weight-bold px-0">
+              <a href="signin.jsp" class="nav-link text-body font-weight-bold px-0">
                 <i class="fa fa-user me-sm-1"></i>
                 <span class="d-sm-inline d-none">Sign In</span>
               </a>
@@ -254,8 +247,8 @@
                 <i class="material-icons opacity-10">weekend</i>
               </div>
               <div class="text-end pt-1">
-                <p class="text-sm mb-0 text-capitalize">Today's Money</p>
-                <h4 class="mb-0">$53k</h4>
+                <p class="text-sm mb-0 text-capitalize">Today's Orders</p>
+                <h4 class="mb-0">53</h4>
               </div>
             </div>
             <hr class="dark horizontal my-0">
@@ -271,7 +264,7 @@
                 <i class="material-icons opacity-10">person</i>
               </div>
               <div class="text-end pt-1">
-                <p class="text-sm mb-0 text-capitalize">Today's Users</p>
+                <p class="text-sm mb-0 text-capitalize">Today's Customers</p>
                 <h4 class="mb-0">2,300</h4>
               </div>
             </div>
@@ -305,8 +298,8 @@
                 <i class="material-icons opacity-10">weekend</i>
               </div>
               <div class="text-end pt-1">
-                <p class="text-sm mb-0 text-capitalize">Sales</p>
-                <h4 class="mb-0">$103,430</h4>
+                <p class="text-sm mb-0 text-capitalize">Today Sales</p>
+                <h4 class="mb-0">103,430 LKR</h4>
               </div>
             </div>
             <hr class="dark horizontal my-0">
@@ -323,7 +316,7 @@
             <div class="card-header pb-0">
               <div class="row">
                 <div class="col-lg-6 col-7">
-                  <h6>Projects</h6>
+                  <h6>Top Selling Items</h6>
                   <p class="text-sm mb-0">
                     <i class="fa fa-check text-info" aria-hidden="true"></i>
                     <span class="font-weight-bold ms-1">30 done</span> this month
@@ -348,10 +341,10 @@
                 <table class="table align-items-center mb-0">
                   <thead>
                     <tr>
-                      <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Companies</th>
-                      <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Members</th>
-                      <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Budget</th>
-                      <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Completion</th>
+                      <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Product</th>
+                      <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Customers</th>
+                      <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Unit-Price</th>
+                      <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Ratings</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -359,10 +352,10 @@
                       <td>
                         <div class="d-flex px-2 py-1">
                           <div>
-                            <img src="assets/img/small-logos/logo-xd.svg" class="avatar avatar-sm me-3" alt="xd">
+                            <img src="assets/img/small-logos/applelogo.svg" class="avatar avatar-sm me-3" alt="xd">
                           </div>
                           <div class="d-flex flex-column justify-content-center">
-                            <h6 class="mb-0 text-sm">Material XD Version</h6>
+                            <h6 class="mb-0 text-sm">Iphone 15 pro</h6>
                           </div>
                         </div>
                       </td>
@@ -383,17 +376,17 @@
                         </div>
                       </td>
                       <td class="align-middle text-center text-sm">
-                        <span class="text-xs font-weight-bold"> $14,000 </span>
+                        <span class="text-xs font-weight-bold"> 349 900 LKR </span>
                       </td>
                       <td class="align-middle">
                         <div class="progress-wrapper w-75 mx-auto">
                           <div class="progress-info">
                             <div class="progress-percentage">
-                              <span class="text-xs font-weight-bold">60%</span>
+                              <span class="text-xs font-weight-bold">90%</span>
                             </div>
                           </div>
                           <div class="progress">
-                            <div class="progress-bar bg-gradient-info w-60" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar bg-gradient-info w-90" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
                           </div>
                         </div>
                       </td>
@@ -402,10 +395,10 @@
                       <td>
                         <div class="d-flex px-2 py-1">
                           <div>
-                            <img src="assets/img/small-logos/logo-atlassian.svg" class="avatar avatar-sm me-3" alt="atlassian">
+                            <img src="assets/img/small-logos/applelogo.svg" class="avatar avatar-sm me-3" alt="atlassian">
                           </div>
                           <div class="d-flex flex-column justify-content-center">
-                            <h6 class="mb-0 text-sm">Add Progress Track</h6>
+                            <h6 class="mb-0 text-sm">Ipad Pro</h6>
                           </div>
                         </div>
                       </td>
@@ -420,17 +413,17 @@
                         </div>
                       </td>
                       <td class="align-middle text-center text-sm">
-                        <span class="text-xs font-weight-bold"> $3,000 </span>
+                        <span class="text-xs font-weight-bold"> 398 000 LKR </span>
                       </td>
                       <td class="align-middle">
                         <div class="progress-wrapper w-75 mx-auto">
                           <div class="progress-info">
                             <div class="progress-percentage">
-                              <span class="text-xs font-weight-bold">10%</span>
+                              <span class="text-xs font-weight-bold">80%</span>
                             </div>
                           </div>
                           <div class="progress">
-                            <div class="progress-bar bg-gradient-info w-10" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar bg-gradient-info w-80" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
                           </div>
                         </div>
                       </td>
@@ -439,10 +432,10 @@
                       <td>
                         <div class="d-flex px-2 py-1">
                           <div>
-                            <img src="assets/img/small-logos/logo-slack.svg" class="avatar avatar-sm me-3" alt="team7">
+                            <img src="assets/img/small-logos/google.svg" class="avatar avatar-sm me-3" alt="team7">
                           </div>
                           <div class="d-flex flex-column justify-content-center">
-                            <h6 class="mb-0 text-sm">Fix Platform Errors</h6>
+                            <h6 class="mb-0 text-sm">Google Pixel 8 Pro</h6>
                           </div>
                         </div>
                       </td>
@@ -457,17 +450,17 @@
                         </div>
                       </td>
                       <td class="align-middle text-center text-sm">
-                        <span class="text-xs font-weight-bold"> Not set </span>
+                        <span class="text-xs font-weight-bold"> 279 900 LKR </span>
                       </td>
                       <td class="align-middle">
                         <div class="progress-wrapper w-75 mx-auto">
                           <div class="progress-info">
                             <div class="progress-percentage">
-                              <span class="text-xs font-weight-bold">100%</span>
+                              <span class="text-xs font-weight-bold">60%</span>
                             </div>
                           </div>
                           <div class="progress">
-                            <div class="progress-bar bg-gradient-success w-100" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar bg-gradient-success w-60" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
                           </div>
                         </div>
                       </td>
@@ -476,10 +469,10 @@
                       <td>
                         <div class="d-flex px-2 py-1">
                           <div>
-                            <img src="assets/img/small-logos/logo-spotify.svg" class="avatar avatar-sm me-3" alt="spotify">
+                            <img src="assets/img/small-logos/razer.svg" class="avatar avatar-sm me-3" alt="spotify">
                           </div>
                           <div class="d-flex flex-column justify-content-center">
-                            <h6 class="mb-0 text-sm">Launch our Mobile App</h6>
+                            <h6 class="mb-0 text-sm">Razer Kraken V3 Pro</h6>
                           </div>
                         </div>
                       </td>
@@ -500,17 +493,17 @@
                         </div>
                       </td>
                       <td class="align-middle text-center text-sm">
-                        <span class="text-xs font-weight-bold"> $20,500 </span>
+                        <span class="text-xs font-weight-bold"> 59 000 LKR </span>
                       </td>
                       <td class="align-middle">
                         <div class="progress-wrapper w-75 mx-auto">
                           <div class="progress-info">
                             <div class="progress-percentage">
-                              <span class="text-xs font-weight-bold">100%</span>
+                              <span class="text-xs font-weight-bold">60%</span>
                             </div>
                           </div>
                           <div class="progress">
-                            <div class="progress-bar bg-gradient-success w-100" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar bg-gradient-success w-60" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
                           </div>
                         </div>
                       </td>
@@ -519,10 +512,10 @@
                       <td>
                         <div class="d-flex px-2 py-1">
                           <div>
-                            <img src="assets/img/small-logos/logo-jira.svg" class="avatar avatar-sm me-3" alt="jira">
+                            <img src="assets/img/small-logos/nvidia.svg" class="avatar avatar-sm me-3" alt="jira">
                           </div>
                           <div class="d-flex flex-column justify-content-center">
-                            <h6 class="mb-0 text-sm">Add the New Pricing Page</h6>
+                            <h6 class="mb-0 text-sm">NVIDIA GeForce RTX 4070 SUPER</h6>
                           </div>
                         </div>
                       </td>
@@ -534,17 +527,17 @@
                         </div>
                       </td>
                       <td class="align-middle text-center text-sm">
-                        <span class="text-xs font-weight-bold"> $500 </span>
+                        <span class="text-xs font-weight-bold"> 180 000 LKR </span>
                       </td>
                       <td class="align-middle">
                         <div class="progress-wrapper w-75 mx-auto">
                           <div class="progress-info">
                             <div class="progress-percentage">
-                              <span class="text-xs font-weight-bold">25%</span>
+                              <span class="text-xs font-weight-bold">50%</span>
                             </div>
                           </div>
                           <div class="progress">
-                            <div class="progress-bar bg-gradient-info w-25" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="25"></div>
+                            <div class="progress-bar bg-gradient-info w-50" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="25"></div>
                           </div>
                         </div>
                       </td>
@@ -553,10 +546,10 @@
                       <td>
                         <div class="d-flex px-2 py-1">
                           <div>
-                            <img src="assets/img/small-logos/logo-invision.svg" class="avatar avatar-sm me-3" alt="invision">
+                            <img src="assets/img/small-logos/Intel.svg" class="avatar avatar-sm me-3" alt="invision">
                           </div>
                           <div class="d-flex flex-column justify-content-center">
-                            <h6 class="mb-0 text-sm">Redesign New Online Shop</h6>
+                            <h6 class="mb-0 text-sm">INTEL® CORE™ i9 -14900K PROCESSOR</h6>
                           </div>
                         </div>
                       </td>
@@ -571,7 +564,7 @@
                         </div>
                       </td>
                       <td class="align-middle text-center text-sm">
-                        <span class="text-xs font-weight-bold"> $2,000 </span>
+                        <span class="text-xs font-weight-bold"> 200 000 LKR </span>
                       </td>
                       <td class="align-middle">
                         <div class="progress-wrapper w-75 mx-auto">
@@ -595,7 +588,7 @@
         <div class="col-lg-4 col-md-6">
           <div class="card h-100">
             <div class="card-header pb-0">
-              <h6>Orders overview</h6>
+              <h6>Timeline</h6>
               <p class="text-sm">
                 <i class="fa fa-arrow-up text-success" aria-hidden="true"></i>
                 <span class="font-weight-bold">24%</span> this month
@@ -608,7 +601,7 @@
                     <i class="material-icons text-success text-gradient">notifications</i>
                   </span>
                   <div class="timeline-content">
-                    <h6 class="text-dark text-sm font-weight-bold mb-0">$2400, Design changes</h6>
+                    <h6 class="text-dark text-sm font-weight-bold mb-0">10 000 LKR, Design changes</h6>
                     <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">22 DEC 7:20 PM</p>
                   </div>
                 </div>
@@ -662,7 +655,7 @@
           </div>
         </div>
       </div>
-      <footer class="footer py-4  ">
+       <footer class="footer py-4  ">
         <div class="container-fluid">
           <div class="row align-items-center justify-content-lg-between">
             <div class="col-lg-6 mb-lg-0 mb-4">
@@ -670,24 +663,24 @@
                 © <script>
                   document.write(new Date().getFullYear())
                 </script>,
-                made with <i class="fa fa-heart"></i> by
-                <a href="https://www.creative-tim.com" class="font-weight-bold" target="_blank">Creative Tim</a>
-                for a better web.
+                Made by
+                <a href="#" class="font-weight-bold" target="_blank">Elec-Zone Crew</a>
+                for a Better Shopping Experience
               </div>
             </div>
             <div class="col-lg-6">
               <ul class="nav nav-footer justify-content-center justify-content-lg-end">
                 <li class="nav-item">
-                  <a href="https://www.creative-tim.com" class="nav-link text-muted" target="_blank">Creative Tim</a>
+                  <a href="#" class="nav-link text-muted" target="_blank">Elec-Zone</a>
                 </li>
                 <li class="nav-item">
-                  <a href="https://www.creative-tim.com/presentation" class="nav-link text-muted" target="_blank">About Us</a>
+                  <a href="#" class="nav-link text-muted" target="_blank">About Us</a>
                 </li>
                 <li class="nav-item">
-                  <a href="https://www.creative-tim.com/blog" class="nav-link text-muted" target="_blank">Blog</a>
+                  <a href="#" class="nav-link text-muted" target="_blank">Blog</a>
                 </li>
                 <li class="nav-item">
-                  <a href="https://www.creative-tim.com/license" class="nav-link pe-0 text-muted" target="_blank">License</a>
+                  <a href="#" class="nav-link pe-0 text-muted" target="_blank">License</a>
                 </li>
               </ul>
             </div>

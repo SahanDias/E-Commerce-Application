@@ -20,14 +20,14 @@ import java.util.List;
 public class CustomerDAO {
     
     //db connection
-    private String jdbcurl= "jdbc:mysql://localhost:3306/school?useSSL=false";
+    private String jdbcurl= "jdbc:mysql://localhost:3306/eleczone?useSSL=false";
     private String username= "root";
     private String password= "";
     
     private static final String INSERT_CUS_SQL ="insert into customers"+"(name,email,address,mobile) values"+"(?,?,?,?);";
-    private static final String SELECT_ALL_CUS = "select * from customers";
-    private static final String DELETE_CUS_SQL = "delete from customers where id= ?";
-    private static final String UPDATE_CUS_SQL ="update customers  set name = ?, email=?, address=?, mobile=?;";
+    private static final String SELECT_ALL_CUS = "select * from customers;";
+    private static final String DELETE_CUS_SQL = "delete from customers where id= ?;";
+    private static final String UPDATE_CUS_SQL ="update customers  set name = ?, email = ?, address = ?, mobile = ? where id = ?;";
     private static final String SELECT_CUS_BY_ID="select * from customers where id=?; ";
     
     protected Connection getConnection(){
@@ -60,7 +60,7 @@ public class CustomerDAO {
         }
     }
     
-    public List<Customer> selectallcustomers (){
+    public List<Customer> selectallCustomers (){
         List<Customer> customers = new ArrayList<>();
         Customer customer= null;
         try {
@@ -82,7 +82,7 @@ public class CustomerDAO {
         return customers;
     }
     
-    public boolean deletecustomer (int id){
+    public boolean deleteCustomer (int id){
         boolean rowdelete = false;
         try {
             Connection connection = getConnection();
