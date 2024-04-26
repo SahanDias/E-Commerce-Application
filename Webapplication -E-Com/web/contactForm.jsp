@@ -15,6 +15,9 @@
 	
     </head>
     <body>
+        <div>
+            <h1>Talk to us</h1>
+        </div>
         <form>      
             <input name="name" type="text" class="feedback-input" placeholder="Name" />   
             <input name="email" type="text" class="feedback-input" placeholder="Email" />
