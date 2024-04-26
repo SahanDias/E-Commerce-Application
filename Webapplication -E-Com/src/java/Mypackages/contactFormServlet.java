@@ -70,7 +70,11 @@ public class contactFormServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        processRequest(request, response);
+        String name = request.getParameter("name");
+        String email = request.getParameter("email");
+        String subject = request.getParameter("subject");
+        String message = request.getParameter("message");
+        //processRequest(request, response);
     }
 
     /**
