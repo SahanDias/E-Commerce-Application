@@ -18,16 +18,15 @@ public class ProductDov {
     private String username="root";
     private String pwd="";
     
-    private static final String INSERT_LAPTOPS_SQL="INSERT INTO laptops(name,price,image,description) VALUES(?,?,?,?)";
-    private static final String INSERT_PHONES_SQL="INSERT INTO phones(name,price,image,description) VALUES(?,?,?,?)";
-    private static final String SELECT_ALL_PHONES="select * from phones";
-    private static final String SELECT_ALL_LAPTOPS="select * from laptops";
-    private static final String UPDATE_PHONES_SQL="update phones set name=?,price=?,image=?,description=?,whare id=?";
-    private static final String UPDATE_LAPTOPS_SQL="update laptops set name=?,price=?,image=?,description=?,whare id=?";
-    private static final String SELECT_PHONE_BY_ID="select * from phones where id=?;";
-    private static final String SELECT_LAPTOP_BY_ID="select * from laptops where id=?;";
-    private static final String DELETE_PHONE_SQL ="delete * from_phones wahere id=?";
-    private static final String DELETE_LAPTOP_SQL="delete * from where id=?";
+    private static final String INSERT_products_SQL="INSERT INTO products(name,catagory,price,cart image,sub images,description) VALUES(?,?,?,?,?,?)";
+    private static final String SELECT_ALL_CAMERAS = "SELECT * FROM products WHERE category = 'camera'";
+    private static final String SELECT_ALL_LAPTOPS = "SELECT * FROM products WHERE category = 'Laptop'";
+    private static final String SELECT_ALL_PHONES = "SELECT * FROM products WHERE category = 'phone'";
+    private static final String UPDATE_PRODUCTS_SQL = "UPDATE products SET name=?,catagory=?, price=?, cart image=?,image,sub images=?, description=? WHERE id=?";
+    private static final String SELECT_PRODUCT_BY_ID = "SELECT * FROM products WHERE id=?";
+    private static final String DELETE_PRODUCT_SQL = "DELETE FROM products WHERE id=?";
+
+  
     
     protected Connection getConnection(){
         Connection con=null;
@@ -41,6 +40,24 @@ public class ProductDov {
              
         return con;
         
+    }
+    public void insertProducts(Products prd){
+          
+        try{
+            Connection connection=getConnection();
+            PreparedStatement pst=connection.prepareStatement(INSERT_products_SQL);
+            pst.setString(1,prd.getName());
+            pst.setString(2,prd.getCatagory());
+            pst.setString(3,prd.getPrice());
+            pst.setString(4,prd.getCartImage());
+            pst.setString(5,prd.getSubimage());
+            pst.executeUpdate();
+            
+        }
+        catch(Exception e){
+            e.printStackTrace();
+        }
+    
     }
     public List<Products> selectAllPhones() throws SQLException{
         List<Products> showphones= new ArrayList<>();
@@ -56,8 +73,11 @@ public class ProductDov {
                 String name=rs.getString("name");
                 String price=rs.getString("price");
                 String des=rs.getString("des");
+                String catagory=rs.getString("catagory");
+                String cartimage=rs.getString("cartimage");
+                String subimage=rs.getString("subimage");
                 
-               showphones.add(new Products(name,price,des));
+               showphones.add(new Products(name,price,des,catagory,cartimage,subimage));
         
             }
         }
@@ -76,12 +96,15 @@ public class ProductDov {
             ResultSet rs =pst.executeQuery();
             
             while(rs.next()){
-                int id   =  rs.getInt("id");
+                                int id   =  rs.getInt("id");
                 String name=rs.getString("name");
                 String price=rs.getString("price");
                 String des=rs.getString("des");
+                String catagory=rs.getString("catagory");
+                String cartimage=rs.getString("cartimage");
+                String subimage=rs.getString("subimage");
                 
-               showlaptops.add(new Products(name,price,des));
+               showlaptops.add(new Products(name,price,des,catagory,cartimage,subimage));
         
             }
         }
@@ -89,6 +112,69 @@ public class ProductDov {
             ex.printStackTrace();
         }
         return showlaptops;
+    }
+    public List<Products> selectCameras() throws SQLException{
+        List<Products> showcameras= new ArrayList<>();
+        Products products=null;
+        
+        try{
+            Connection con=getConnection();
+            PreparedStatement pst=con.prepareStatement(SELECT_ALL_CAMERAS);
+            ResultSet rs =pst.executeQuery();
+            
+            while(rs.next()){
+                 int id   =  rs.getInt("id");
+                String name=rs.getString("name");
+                String price=rs.getString("price");
+                String des=rs.getString("des");
+                String catagory=rs.getString("catagory");
+                String cartimage=rs.getString("cartimage");
+                String subimage=rs.getString("subimage");
+                
+               showcameras.add(new Products(name,price,des,catagory,cartimage,subimage));
+        
+            }
+        }
+        catch(SQLException ex){
+            ex.printStackTrace();
+        }
+        return showcameras;
+    }
+     
+    public boolean deleteProduct(int id){
+            boolean rowdeleted=false;
+            try{
+                Connection con=getConnection();
+                PreparedStatement  pst=con.prepareStatement(DELETE_PRODUCT_SQL);
+                pst.setInt(1,id);
+                rowdeleted=pst.executeUpdate()>0;
+            }
+            catch(Exception e){
+                e.printStackTrace();
+                
+            }
+            return rowdeleted;
+        }
+     public boolean updateProduct(Products newp)
+    {
+        boolean rowupdated=false;
+        try{
+              Connection con=getConnection();
+                PreparedStatement  pst=con.prepareStatement(UPDATE_PRODUCTS_SQL);
+                pst.setString(1,newp.getName());
+                pst.setString(2,newp.getCatagory());
+                pst.setString(3,newp.getPrice());
+                pst.setInt(4,newp.getId());
+                pst.setString(5,newp.getCartImage());
+                pst.setString(6,newp.getSubimage());
+                rowupdated=pst.executeUpdate()>0;
+                 
+                
+        }
+        catch(Exception e){
+            e.printStackTrace();
+        }
+        return rowupdated;
     }
     
 }
