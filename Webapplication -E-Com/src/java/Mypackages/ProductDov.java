@@ -73,9 +73,11 @@ public class ProductDov {
                 String name=rs.getString("name");
                 String price=rs.getString("price");
                 String des=rs.getString("des");
-                String catagory=rs.
+                String catagory=rs.getString("catagory");
+                String cartimage=rs.getString("cartimage");
+                String subimage=rs.getString("subimage");
                 
-               showphones.add(new Products(name,price,des));
+               showphones.add(new Products(name,price,des,catagory,cartimage,subimage));
         
             }
         }
@@ -94,12 +96,15 @@ public class ProductDov {
             ResultSet rs =pst.executeQuery();
             
             while(rs.next()){
-                int id   =  rs.getInt("id");
+                                int id   =  rs.getInt("id");
                 String name=rs.getString("name");
                 String price=rs.getString("price");
                 String des=rs.getString("des");
+                String catagory=rs.getString("catagory");
+                String cartimage=rs.getString("cartimage");
+                String subimage=rs.getString("subimage");
                 
-               showlaptops.add(new Products(name,price,des));
+               showlaptops.add(new Products(name,price,des,catagory,cartimage,subimage));
         
             }
         }
@@ -107,6 +112,69 @@ public class ProductDov {
             ex.printStackTrace();
         }
         return showlaptops;
+    }
+    public List<Products> selectCameras() throws SQLException{
+        List<Products> showcameras= new ArrayList<>();
+        Products products=null;
+        
+        try{
+            Connection con=getConnection();
+            PreparedStatement pst=con.prepareStatement(SELECT_ALL_CAMERAS);
+            ResultSet rs =pst.executeQuery();
+            
+            while(rs.next()){
+                 int id   =  rs.getInt("id");
+                String name=rs.getString("name");
+                String price=rs.getString("price");
+                String des=rs.getString("des");
+                String catagory=rs.getString("catagory");
+                String cartimage=rs.getString("cartimage");
+                String subimage=rs.getString("subimage");
+                
+               showcameras.add(new Products(name,price,des,catagory,cartimage,subimage));
+        
+            }
+        }
+        catch(SQLException ex){
+            ex.printStackTrace();
+        }
+        return showcameras;
+    }
+     
+    public boolean deleteProduct(int id){
+            boolean rowdeleted=false;
+            try{
+                Connection con=getConnection();
+                PreparedStatement  pst=con.prepareStatement(DELETE_PRODUCT_SQL);
+                pst.setInt(1,id);
+                rowdeleted=pst.executeUpdate()>0;
+            }
+            catch(Exception e){
+                e.printStackTrace();
+                
+            }
+            return rowdeleted;
+        }
+     public boolean updateProduct(Products newp)
+    {
+        boolean rowupdated=false;
+        try{
+              Connection con=getConnection();
+                PreparedStatement  pst=con.prepareStatement(UPDATE_PRODUCTS_SQL);
+                pst.setString(1,newp.getName());
+                pst.setString(2,newp.getCatagory());
+                pst.setString(3,newp.getPrice());
+                pst.setInt(4,newp.getId());
+                pst.setString(5,newp.getCartImage());
+                pst.setString(6,newp.getSubimage());
+                rowupdated=pst.executeUpdate()>0;
+                 
+                
+        }
+        catch(Exception e){
+            e.printStackTrace();
+        }
+        return rowupdated;
     }
     
 }
