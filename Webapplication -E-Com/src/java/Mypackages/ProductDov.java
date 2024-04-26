@@ -22,7 +22,7 @@ public class ProductDov {
     private static final String SELECT_ALL_CAMERAS = "SELECT * FROM products WHERE category = 'camera'";
     private static final String SELECT_ALL_LAPTOPS = "SELECT * FROM products WHERE category = 'Laptop'";
     private static final String SELECT_ALL_PHONES = "SELECT * FROM products WHERE category = 'phone'";
-    private static final String UPDATE_PRODUCTS_SQL = "UPDATE products SET name=?, price=?, image=?, description=? WHERE id=?";
+    private static final String UPDATE_PRODUCTS_SQL = "UPDATE products SET name=?,catagory=?, price=?, cart image=?,image,sub images=?, description=? WHERE id=?";
     private static final String SELECT_PRODUCT_BY_ID = "SELECT * FROM products WHERE id=?";
     private static final String DELETE_PRODUCT_SQL = "DELETE FROM products WHERE id=?";
 
@@ -41,6 +41,24 @@ public class ProductDov {
         return con;
         
     }
+    public void insertProducts(Products prd){
+          
+        try{
+            Connection connection=getConnection();
+            PreparedStatement pst=connection.prepareStatement(INSERT_products_SQL);
+            pst.setString(1,prd.getName());
+            pst.setString(2,prd.getCatagory());
+            pst.setString(3,prd.getPrice());
+            pst.setString(4,prd.getCartImage());
+            pst.setString(5,prd.getSubimage());
+            pst.executeUpdate();
+            
+        }
+        catch(Exception e){
+            e.printStackTrace();
+        }
+    
+    }
     public List<Products> selectAllPhones() throws SQLException{
         List<Products> showphones= new ArrayList<>();
         Products products=null;
@@ -55,6 +73,7 @@ public class ProductDov {
                 String name=rs.getString("name");
                 String price=rs.getString("price");
                 String des=rs.getString("des");
+                String catagory=rs.
                 
                showphones.add(new Products(name,price,des));
         
