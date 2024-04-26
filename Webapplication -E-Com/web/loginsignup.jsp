@@ -66,6 +66,7 @@
       // Implement your signup form submission logic here
       console.log('Signup form submitted');
       // Validate inputs or send data to server
+      //Add comment
     }
   </script>
 </body>
