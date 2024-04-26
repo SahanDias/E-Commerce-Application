@@ -602,18 +602,15 @@ a:hover {
     min-height: 370px;
 }
 
-.lap1_main laptop_img{
+.lap1_main .laptop_img img{
     max-width: 100%;
     transform-origin:center;
     transition: transform 0.4s case-in-out;
-    height: 100%;
-    aspect:ratio: 16 /9;
-    overflow:hidden;
-    object-fit:cover;
+   
 }
 
-.lap1_main laptop_img :hover laptop_img{
-    transform: scale(1.5);
+.lap1_main .laptop_img img:hover{
+    transform: scale(1.1);
 }
 
 .btn_main {
