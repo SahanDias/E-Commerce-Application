@@ -74,6 +74,8 @@ public class contactFormServlet extends HttpServlet {
         String email = request.getParameter("email");
         String subject = request.getParameter("subject");
         String message = request.getParameter("message");
+        
+        response.sendRedirect("thankyou.html");
         //processRequest(request, response);
     }
 
