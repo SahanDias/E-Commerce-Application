@@ -15,37 +15,11 @@
 	
     </head>
     <body>
-        <div>
-            <form method="POST" id="contactForm" name="contactForm" class="contactForm">
-		<div class="row">
-                    <div class="col-md-12">
-			<div class="form-group">
-                            <input type="text" class="form-control" name="name" id="name" placeholder="Name">
-                        </div>
-                    </div>
-                    <div class="col-md-12"> 
-                        <div class="form-group">
-                            <input type="email" class="form-control" name="email" id="email" placeholder="Email">
-                        </div>
-                    </div>
-                    <div class="col-md-12">
-			<div class="form-group">
-                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject">
-			</div>
-                    </div>
-                    <div class="col-md-12">
-			<div class="form-group">
-                            <textarea name="message" class="form-control" id="message" cols="30" rows="6" placeholder="Message"></textarea>
-			</div>
-                    </div>
-                    <div class="col-md-12">
-			<div class="form-group">
-                            <input type="submit" value="Send Message" class="btn btn-primary">
-                            <div class="submitting"></div>
-			</div>
-                    </div>
-		</div>
-            </form>
-        </div>
+        <form>      
+            <input name="name" type="text" class="feedback-input" placeholder="Name" />   
+            <input name="email" type="text" class="feedback-input" placeholder="Email" />
+            <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
+            <input type="submit" value="SUBMIT"/>
+        </form>
     </body>
 </html>
