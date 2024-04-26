@@ -4,9 +4,17 @@
         <servlet-name>productservlet</servlet-name>
         <servlet-class>Mypackages.productservlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>contactFormServlet</servlet-name>
+        <servlet-class>Mypackages.contactFormServlet</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>productservlet</servlet-name>
         <url-pattern>/productservlet/*</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>contactFormServlet</servlet-name>
+        <url-pattern>/contactFormServlet</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
