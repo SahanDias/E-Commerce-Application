@@ -7,11 +7,22 @@ and open the template in the editor.
     Created on : Apr 27, 2024, 5:05:30 AM
     Author     : fazlaFiyas
 */
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300,700);
 
 body { background:rgb(30,30,40); }
 form { max-width:420px; margin:50px auto; }
 
+.form-heading{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    font-size: 50px;
+    color: #CC6666;
+    margin-top: 80px;
+    font-family: serif;
+}
 .feedback-input {
   color:white;
   font-family: Helvetica, Arial, sans-serif;
