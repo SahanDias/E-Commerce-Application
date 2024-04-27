@@ -8,6 +8,10 @@
         <servlet-name>contactFormServlet</servlet-name>
         <servlet-class>Mypackages.contactFormServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>AddCustomerForm</servlet-name>
+        <servlet-class>Mypackages.AddCustomerForm</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>productservlet</servlet-name>
         <url-pattern>/productservlet/*</url-pattern>
@@ -15,6 +19,10 @@
     <servlet-mapping>
         <servlet-name>contactFormServlet</servlet-name>
         <url-pattern>/contactFormServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AddCustomerForm</servlet-name>
+        <url-pattern>/AddCustomerForm</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

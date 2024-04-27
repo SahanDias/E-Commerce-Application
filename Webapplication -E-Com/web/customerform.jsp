@@ -12,7 +12,7 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <form action="" method="post">
+        <form action="AddCustomerForm" method="post">
             Name:
             <input type="text" name="name"><br>
             Email:
